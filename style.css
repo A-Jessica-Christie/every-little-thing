@@ -49,7 +49,6 @@ section { position: relative; }
 
 .padded-tb  { padding-top: 5%; padding-bottom: 5%; }
 .padded-lr  { padding-left: 5%; padding-right: 5%; }
-.padded-lr-1 { padding-left: 1%; padding-right: 1%; }
 
 .padded-t-1 { padding-top: 1rem; }
 .padded-b-1 { padding-bottom: 1rem; }
@@ -95,7 +94,6 @@ section { position: relative; }
 
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
-.margin-lr-1 { margin-top: 1%; margin-bottom: 1%; }
 
 /* ------------ Backgrounds & Background Images  ----------------------- */
 
@@ -148,7 +146,6 @@ a.bg-image { display: block;}
 .portrait-tall { padding-bottom: 175%; }
 .portrait      { padding-bottom: 125%; }
 .square        { padding-bottom: 100%; }
-
 
 /* Background Position */
 .bg-pos-t { background-position: top; }
