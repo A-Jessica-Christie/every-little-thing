@@ -105,7 +105,7 @@ section { position: relative; }
 
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
-    background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
+    background-image: url('images/banner.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -243,10 +243,6 @@ p a:hover {
 
 
 /* ------------ Header & Hamburger Menu -------------- */
-header {
-    padding: 1rem 5%;
-}
-
 nav a {
     padding: 0.25rem 0.5rem;
     display: inline-block;
@@ -258,7 +254,12 @@ nav a:hover {
 
 .logo {
   text-decoration: none;
-  font-size: 2.5rem;
+  background-image: url('images/jc.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  min-height: 37vh;
+  margin: 0 20%;
 } 
 
 
