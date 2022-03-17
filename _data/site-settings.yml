@@ -11,13 +11,13 @@ social:
   facebook_url:
   twitter_username:
 design: 
-  dark-text_color: 'rgb(60,60,65)'
+  dark-text_color: '#555555'
   medium-text_color: 'rgb(90,90,95)'
-  light-text_color: '#f7f5f3'
-  featured-text_color: 'teal'
-  dark_color: 'rgb(60,60,65)'
+  light-text_color: 'white'
+  featured-text_color: '#E7C7EF'
+  dark_color: '#555555'
   medium_color: '#ede8e4'
-  light_color: '#f7f5f3'
+  light_color: 'white'
   v-light_color: '#f9f9f9'
-  featured_color: '#6495ed'
+  featured_color: '#E7C7EF'
   accent_color: 'rgb(167, 74, 74)'

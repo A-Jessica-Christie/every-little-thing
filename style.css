@@ -240,16 +240,13 @@ p a:hover {
 
 
 /* ------------ Header/Footer & Hamburger Menu -------------- */
-header nav { background-color: white; }
+header nav { background-color: var(--light-text); }
 
 nav a {
     padding: 0.25rem 0.5rem;
     display: inline-block;
     text-decoration: none;
     color: inherit;
-}
-nav a:hover {
-  color: var(--featured-text);
 }
 
 .logo {
@@ -260,11 +257,48 @@ nav a:hover {
   margin: 0 30%;
 }
 
-footer { color: purple; }
+.menu {
+  background-color: #FFD5EF;
+  font-family: 'WindSong', cursive;
+  font-size: 3rem;
+  background-image: url('images/red-cloud.jpg');
+  background-position: 50% 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rotate {
+  position: absolute;
+  top: 175px;
+  height: 0;
+  left: -100px;
+  bottom: 0;
+  transform: rotate(90deg);
+  font-family: 'Martel';
+}
+
+.menu a {
+  font-weight: 500;
+  border: 2px solid var(--light-text);
+  color: var(--light-text);
+  border-radius: 7px;
+  margin: 1rem;
+  background-color: #FFD5EF;
+  padding: 5%;
+  background-image: url('images/red-cloud.jpg');
+  background-position: center;
+}
+
+.menu a:hover {
+  border: 3px solid var(--light-text);
+  color: var(--light-text);
+  background-image: url('images/purple-cloud.jpg');
+  background-position: center;
+}
 
 .footer-banner {
-  background-image: url('images/footer.jpg');
-  background-position:50% 85%;
+  background-image: url('images/soft-purple-cloud.png');
+  background-position: 50% 70%;
 }
 
 .footer-logo {
@@ -272,6 +306,8 @@ footer { color: purple; }
   font-size: 4.5rem;
   text-decoration: none;
 }
+
+footer a:hover { color: var(--light-text); }
 
 
 /* Dropdown styles */
@@ -293,7 +329,7 @@ footer { color: purple; }
   left: -1rem;
   padding: 0.5rem;
   display:none; 
-  background-color: white;
+  background-color: var(--light-text);
   z-index: 2;
   text-align: left;
   min-width: 10rem;
@@ -324,7 +360,7 @@ footer { color: purple; }
   
   /* Styles when the hamburger button is active  */
   .hamburger-button.active {
-    color: white;
+    color: var(--light-text);
   }
   
   
@@ -471,6 +507,8 @@ hr.short.center {
 
   .md-padded-l-0 { padding-left: 0; }
   .md-padded-r-0 { padding-right: 0; }
+
+  footer nav a:hover { color: var(--featured-text); }
 
 }
 
