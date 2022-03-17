@@ -469,6 +469,9 @@ hr.short.center {
 	.show-md { display: block; }
 	.hide-md { display: none;  }
 
+  .md-padded-l-0 { padding-left: 0; }
+  .md-padded-r-0 { padding-right: 0; }
+
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
