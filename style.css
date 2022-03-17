@@ -246,6 +246,7 @@ nav a {
     padding: 0.25rem 0.5rem;
     display: inline-block;
     text-decoration: none;
+    color: inherit;
 }
 nav a:hover {
   color: var(--featured-text);
@@ -259,14 +260,16 @@ nav a:hover {
   margin: 0 30%;
 }
 
+footer { color: purple; }
+
 .footer-banner {
   background-image: url('images/footer.jpg');
-  background-position: 82% 90%;
+  background-position:50% 85%;
 }
 
 .footer-logo {
   font-family: 'Libre Barcode 128 Text', cursive;
-  font-size: 3rem;
+  font-size: 4.5rem;
   text-decoration: none;
 }
 
