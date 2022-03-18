@@ -45,6 +45,7 @@ section { position: relative; }
 .padded-b  { padding-bottom: 5%; }
 .padded-l  { padding-left: 5%; }
 .padded-r  { padding-right: 5%; }
+.padded-l-lg { padding-left: 10%; }
 
 .padded-tb  { padding-top: 5%; padding-bottom: 5%; }
 .padded-lr  { padding-left: 5%; padding-right: 5%; }
@@ -566,7 +567,7 @@ hr.short.center {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
-  .banner { font-size: 1.8rem; }
+  .banner { font-size: 2rem; }
 
 }
 
@@ -583,5 +584,5 @@ hr.short.center {
       font-family: 'Martel', serif; 
     }
 
-    .banner { font-size: 1.5rem; }
+    .banner { font-size: 1.2rem; }
 }
