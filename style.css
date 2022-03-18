@@ -368,7 +368,7 @@ polygon { stroke-width: 2px; }
     line-height: 0.8;
     position: fixed;
     right: 3%;
-    top: 3%;
+    top: 2%;
     z-index: 4;
     color: var(--featured);
   }
@@ -569,6 +569,7 @@ hr.short.center {
   .sm-square        { padding-bottom: 100%; }
 
   .banner { font-size: 2rem; }
+  .footer-logo { font-size:3rem; }
 
 }
 
@@ -585,5 +586,5 @@ hr.short.center {
       font-family: 'Martel', serif; 
     }
 
-    .banner { font-size: 1.2rem; }
+    .banner { font-size: 3rem; }
 }
