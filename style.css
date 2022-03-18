@@ -581,4 +581,6 @@ hr.short.center {
       font-weight: 300;
       font-family: 'Martel', serif; 
     }
+
+    .banner { font-size: 1.5rem; }
 }
