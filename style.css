@@ -243,7 +243,7 @@ p a:hover {
 /* ------------ Logo & Header/Footer -------------- */
 .banner {
   font-family: 'Henny Penny', cursive;
-  font-size: 4.7rem;
+  font-size: 5.5rem;
   color: var(--v-light);
   line-height: 1.3;
 }
@@ -291,16 +291,6 @@ footer h3 { font-family: 'WindSong', cursive; font-size: 3rem; }
 
 
 /* ------------ Menu Hamburger -------------- */
-.menu {
-  background-color: #FFD5EF;
-  font-family: 'WindSong', cursive;
-  font-size: 3rem;
-  background-image: url('images/flip-purple-cloud.jpg');
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .rotate {
   position: absolute;
   top: 175px;
@@ -314,14 +304,14 @@ footer h3 { font-family: 'WindSong', cursive; font-size: 3rem; }
 .bookmark {
 position: absolute;
 top: 0;
-right: 5%;
+right: 2%;
 background-color: var(--light-text);
 color: var(--dark-text);
 text-align: center;
-padding: 2rem;
+padding: 1.8rem;
 margin: 0;
 z-index: 2;
-min-width: 5rem;
+min-width: 3rem;
 }
 
 svg.mask {
@@ -341,6 +331,16 @@ svg.mask.banner-tail {
 
 polygon { stroke-width: 2px; }
 
+.menu {
+  background-color: #FFD5EF;
+  font-family: 'WindSong', cursive;
+  font-size: 3rem;
+  background-image: url('images/flip-purple-cloud.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .menu a {
   font-weight: 500;
   border: 2px solid var(--light-text);
@@ -352,10 +352,11 @@ polygon { stroke-width: 2px; }
 }
 
 .menu a:hover {
-  border: 3px solid var(--light-text);
+  border: 2px solid var(--light-text);
   color: var(--light-text);
   background-color: var(--light);
   background-position: center;
+  transition: all 0.5s;
 }
 
 .hamburger-button {
@@ -396,7 +397,6 @@ polygon { stroke-width: 2px; }
     padding: 5vh 5%;
     margin: 5%;
     display: block;
-    border: 3px solid var(--light-text);
     border-radius: 7px;
     background-color: var(--light-text);
     color: var(--featured-text);
@@ -532,6 +532,7 @@ hr.short.center {
 
   .md-padded-l-0 { padding-left: 0; }
   .md-padded-r-0 { padding-right: 0; }
+  .md-padded-lr-0 { padding-left: 0; padding-right: 0; }
 
   footer nav a:hover { color: var(--featured-text); }
   .banner { font-size: 3rem; }
