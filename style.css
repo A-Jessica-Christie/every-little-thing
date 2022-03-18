@@ -538,7 +538,6 @@ hr.short.center {
   .menu { font-size: 2.8rem; }
   .banner { font-size: 3rem; }
   footer h3 { font-size: 2rem; }
-  footer nav a { font-size: 1rem; }
   footer h3 span { font-size: 1.5rem; }
   footer nav a:hover { color: var(--featured-text); }
 }
@@ -571,7 +570,8 @@ hr.short.center {
   .sm-square        { padding-bottom: 100%; }
 
   .banner { font-size: 2rem; }
-  .footer-logo { font-size:3rem; }
+  .footer-logo { font-size: 3rem; }
+  footer nav a { font-size: 1rem; }
 
 }
 
@@ -589,4 +589,5 @@ hr.short.center {
     }
 
     .banner { font-size: 3rem; }
+    footer p { font-size: 0.5rem; }
 }
