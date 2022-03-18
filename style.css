@@ -239,7 +239,7 @@ p a:hover {
 - .button-inverted, .button-subtle, .button-lg  */
 
 
-/* ------------ Header/Footer & Hamburger Menu -------------- */
+/* ------------ Logo & Header/Footer -------------- */
 header nav { background-color: var(--light-text); }
 
 nav a {
@@ -254,9 +254,27 @@ nav a {
   background-position: center;
   background-repeat: no-repeat;
   display: block;
-  margin: 0 30%;
+  margin: 0 20%;
 }
 
+.footer-banner {
+  background-image: url('images/soft-purple-cloud.png');
+  background-position: 50% 70%;
+}
+
+.footer-logo {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 4.5rem;
+  text-decoration: none;
+}
+
+footer a:hover { color: var(--light-text); }
+footer nav a { font-size: 1.5rem; }
+footer span { font-family: 'Mulish', serif; }
+footer h3 { font-family: 'WindSong', cursive; font-size: 3rem; }
+
+
+/* ------------ Menu Hamburger -------------- */
 .menu {
   background-color: #FFD5EF;
   font-family: 'WindSong', cursive;
@@ -326,55 +344,6 @@ polygon { stroke-width: 2px; }
   background-position: center;
 }
 
-.footer-banner {
-  background-image: url('images/soft-purple-cloud.png');
-  background-position: 50% 70%;
-}
-
-.footer-logo {
-  font-family: 'Libre Barcode 128 Text', cursive;
-  font-size: 4.5rem;
-  text-decoration: none;
-}
-
-footer a:hover { color: var(--light-text); }
-
-
-/* Dropdown styles */
-
-.dropdown { 
-  position: relative; 
-  display: inline-block;
-  border: 1px solid orange;
-}
-
-.dropdown-title {
-  padding: 0.25rem 0.5rem;
-  display: inline-block;
-}
-
-.dropdown-content {
-  position: absolute;
-  top: 100%;
-  left: -1rem;
-  padding: 0.5rem;
-  display:none; 
-  background-color: var(--light-text);
-  z-index: 2;
-  text-align: left;
-  min-width: 10rem;
-  border: 1px solid mediumvioletred;
-}
-
-.dropdown:hover .dropdown-content{ 
-  display: block;
-}
-
-.dropdown-content a {
-  display: block;
-  padding: 0.2rem;
-}
-
 .hamburger-button {
     cursor: pointer;
     padding: 0.5rem;
@@ -383,9 +352,10 @@ footer a:hover { color: var(--light-text); }
     font-size: 2.5rem;
     line-height: 0.8;
     position: fixed;
-    right: 5%;
-    top: 0rem;
+    right: 3%;
+    top: 3%;
     z-index: 4;
+    color: var(--featured);
   }
   
   /* Styles when the hamburger button is active  */
@@ -393,11 +363,10 @@ footer a:hover { color: var(--light-text); }
     color: var(--light-text);
   }
   
-  
   .mobile-menu {
     display: none; 
-    background-color: var(--featured);
-    padding: 5%;
+    background-color: #E8E8FF;
+    padding: 15%;
     position: fixed; 
     z-index:3;
     top: 0;
@@ -410,9 +379,21 @@ footer a:hover { color: var(--light-text); }
   .mobile-menu a {
     text-decoration: none; 
     color: inherit; 
-    padding: 2%;
+    padding: 5vh 5%;
+    margin: 5%;
     display: block;
-    font-weight: normal;
+    border: 3px solid var(--light-text);
+    border-radius: 7px;
+    background-color: var(--light-text);
+    color: var(--featured-text);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .mobile-menu a:hover {
+    color: var(--light-text);
+    background-color: var(--featured-text);
+    border: var(--featured-text);
   }
 
 
@@ -539,6 +520,7 @@ hr.short.center {
   .md-padded-r-0 { padding-right: 0; }
 
   footer nav a:hover { color: var(--featured-text); }
+  .margin-0 { margin: 0; }
 
 }
 
