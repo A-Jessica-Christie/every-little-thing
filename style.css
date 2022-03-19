@@ -449,7 +449,6 @@ polygon { stroke-width: 2px; }
 .mailbox-padding {
   padding-top: 1rem;
   padding-right: 4rem;
-  padding-bottom: 5%;
 }
 
 .mailbox { cursor: pointer; }
@@ -594,9 +593,10 @@ hr.short.center {
   .md-padded-r-0 { padding-right: 0; }
   .md-padded-lr-0 { padding-left: 0; padding-right: 0; }
   
-  .md-padded-r-2 { padding-right: 2rem; }
+  .md-padded-r-1 { padding-right: 1rem; }
   .md-padded-t { padding-top: 5%; }
-  .md-padded { padding: 5% }
+  .md-padded-b { padding-bottom: 5% }
+  .md-padded { padding: 5%; }
 
 
   .logo { min-height: 13vh; }
@@ -636,7 +636,7 @@ hr.short.center {
   .sm-padded-b-0 { padding-bottom: 0; }
   .sm-padded-r-0 { padding-right: 0; }
   .sm-padded-l-0 { padding-left: 0; }
-  .sm-padded-l-2 { padding-left: 2rem; }
+  .sm-padded-l-3 { padding-left: 3rem; }
 
   .sm-margin-t-0 { margin-top: 0; }
   .sm-margin-b-0 { margin-bottom: 0; }
@@ -671,6 +671,8 @@ hr.short.center {
     font-family: 'Martel', serif; 
   }
 
+  .xs-padded-b-0 { padding-bottom: 0; }
+  
   .logo { min-height: 7vh; }
   .banner { font-size: 4rem; }
   .banner span { font-size: 5rem; }
