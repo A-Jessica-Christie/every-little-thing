@@ -388,7 +388,7 @@ polygon { stroke-width: 2px; }
     line-height: 0.8;
     position: fixed;
     right: 3%;
-    top: 1.5%;
+    top: 0.5%;
     z-index: 4;
     color: var(--featured);
   }
@@ -482,7 +482,8 @@ a:hover img:first-child { display: none; }
 
 
 /* ------------ Blogging elements  ----------------------- */
-
+.mint { background-color: var(--v-light); }
+.post-image { min-height: 30vh; }
 
 
 /* Post Loop Item  */
@@ -597,6 +598,7 @@ hr.short.center {
   .md-padded-t { padding-top: 5%; }
   .md-padded-b { padding-bottom: 5% }
   .md-padded { padding: 5%; }
+  .md-padded-t-lg { padding-top: 10%; }
 
 
   .logo { min-height: 13vh; }
@@ -671,6 +673,8 @@ hr.short.center {
     font-weight: 300;
     font-family: 'Martel', serif; 
   }
+
+  .xs-text-center { text-align: center; }
 
   .xs-padded-b-0 { padding-bottom: 0; }
   .xs-padded-r-0 { padding-right: 0; }
