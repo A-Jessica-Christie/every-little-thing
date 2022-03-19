@@ -437,14 +437,13 @@ polygon { stroke-width: 2px; }
 
 
 /* ------------ Call to Read / Little Note  -------------- */
-.ctr {
-  text-align: center;
-}
-
+.ctr { text-align: center; }
+.ctr h2 { font-size: 2.5rem; }
 .ctr span {
   font-family: 'Windsong', cursive;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
+
 .arrow { font-size: 3rem; }
 
 .mailbox-padding {
@@ -604,6 +603,9 @@ hr.short.center {
   .banner span { font-size: 7rem; }
   span.purple { font-size: 5rem; }
 
+  .ctr h2 { font-size: 2rem; }
+  .ctr span { font-size: 4rem; }
+
   footer h3 { font-size: 2rem; }
   footer h3 span { font-size: 1.5rem; }
   footer nav a:hover { color: var(--featured-text); }
@@ -630,6 +632,9 @@ hr.short.center {
 
   .sm-padded-t-0 { padding-top: 0; }
   .sm-padded-b-0 { padding-bottom: 0; }
+  .sm-padded-r-0 { padding-right: 0; }
+  .sm-padded-l-0 { padding-left: 0; }
+
   .sm-margin-t-0 { margin-top: 0; }
   .sm-margin-b-0 { margin-bottom: 0; }
 
@@ -642,6 +647,9 @@ hr.short.center {
   .banner { font-size: 3rem; }
   .banner span { font-size: 5rem; }
   span.purple { font-size: 3rem; }
+
+  .ctr h2 { font-size: 1.8rem; }
+  .ctr span { font-size: 3.5rem; }
   .footer-logo { font-size: 3rem; }
   footer nav a { font-size: 1rem; }
 
@@ -659,6 +667,8 @@ hr.short.center {
     font-weight: 300;
     font-family: 'Martel', serif; 
   }
+
+  .xs-padded-l-1 { padding-left: 1rem; }
 
   .logo { min-height: 7vh; }
   .banner { font-size: 4rem; }
