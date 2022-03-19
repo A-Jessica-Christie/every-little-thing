@@ -448,8 +448,7 @@ polygon { stroke-width: 2px; }
 
 .mailbox-padding {
   padding-top: 1rem;
-  padding-left: 2rem;
-  padding-right: 2em;
+  padding-right: 4rem;
   padding-bottom: 5%;
 }
 
@@ -594,8 +593,11 @@ hr.short.center {
   .md-padded-l-0 { padding-left: 0; }
   .md-padded-r-0 { padding-right: 0; }
   .md-padded-lr-0 { padding-left: 0; padding-right: 0; }
+  
+  .md-padded-r-2 { padding-right: 2rem; }
   .md-padded-t { padding-top: 5%; }
   .md-padded { padding: 5% }
+
 
   .logo { min-height: 13vh; }
   .menu { font-size: 2.8rem; }
@@ -634,6 +636,7 @@ hr.short.center {
   .sm-padded-b-0 { padding-bottom: 0; }
   .sm-padded-r-0 { padding-right: 0; }
   .sm-padded-l-0 { padding-left: 0; }
+  .sm-padded-l-2 { padding-left: 2rem; }
 
   .sm-margin-t-0 { margin-top: 0; }
   .sm-margin-b-0 { margin-bottom: 0; }
@@ -667,8 +670,6 @@ hr.short.center {
     font-weight: 300;
     font-family: 'Martel', serif; 
   }
-
-  .xs-padded-l-1 { padding-left: 1rem; }
 
   .logo { min-height: 7vh; }
   .banner { font-size: 4rem; }
