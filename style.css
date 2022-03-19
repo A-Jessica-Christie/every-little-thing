@@ -243,17 +243,22 @@ p a:hover {
 /* ------------ Logo & Header/Footer -------------- */
 .banner {
   font-family: 'Henny Penny', cursive;
-  font-size: 5.5rem;
+  font-size: 7rem;
   color: var(--v-light);
-  line-height: 1;
+  line-height: 1.3;
 }
 
 .banner span {
   font-family: 'Emilys Candy', cursive;
   color: var(--light);
+  font-size: 8.5rem;
 }
 
-span.purple { color: var(--accent); }
+span.purple {
+  color: var(--accent); 
+  font-family: 'Henny Penny', cursive; 
+  font-size: 7rem;
+}
 
 header nav { background-color: var(--light-text); }
 
@@ -536,7 +541,10 @@ hr.short.center {
 
   
   .menu { font-size: 2.8rem; }
-  .banner { font-size: 3rem; }
+  .banner { font-size: 5rem; }
+  .banner span { font-size: 7rem; }
+  span.purple { font-size: 5rem; }
+
   footer h3 { font-size: 2rem; }
   footer h3 span { font-size: 1.5rem; }
   footer nav a:hover { color: var(--featured-text); }
@@ -569,7 +577,9 @@ hr.short.center {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
-  .banner { font-size: 2rem; }
+  .banner { font-size: 3rem; }
+  .banner span { font-size: 5rem; }
+  span.purple { font-size: 3rem; }
   .footer-logo { font-size: 3rem; }
   footer nav a { font-size: 1rem; }
 
@@ -588,6 +598,8 @@ hr.short.center {
       font-family: 'Martel', serif; 
     }
 
-    .banner { font-size: 3rem; }
+    .banner { font-size: 4rem; }
+    .banner span { font-size: 5rem; }
+    span.purple { font-size: 4rem; }
     footer p { font-size: 0.5rem; }
 }
