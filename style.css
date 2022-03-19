@@ -450,7 +450,7 @@ polygon { stroke-width: 2px; }
 .mailbox-menu {
   display: none;
   background-color: var(--accent);
-  opacity: 0.97;
+  opacity: 0.99;
   padding: 20%;
   position: fixed;
   z-index: 2;
@@ -458,38 +458,20 @@ polygon { stroke-width: 2px; }
   bottom: 0;
   left: 0;
   right: 0;
-  text-align: center;
 }
 
 .mailbox-menu a {
-  text-decoration: none;
-  border: 3px solid teal;
-  opacity: 1;
+  text-decoration: none;  opacity: 1;
   position: fixed;
-    /* top: 0; */
-    left: 30%;
-    bottom: 20%;
-    right: 30%;
-}
-
-.mailbox-menu a:hover {
-  opacity: 1;
-  position: fixed;
-  /* top: 0; */
   left: 30%;
-  bottom: 27%;
+  bottom: 30%;
   right: 30%;
 }
 
-a img:last-child {
-  display: none;  
-}
-a:hover img:last-child {
-  display: inline-block;  
-}
-a:hover img:first-child {
-  display: none;  
-}
+.mailbox-menu a:hover { bottom: 33%; }
+a img:last-child { display: none ; }
+a:hover img:last-child { display: inline-block; }
+a:hover img:first-child { display: none; }
 
 
 /* ------------ Blogging elements  ----------------------- */
