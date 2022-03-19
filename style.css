@@ -631,6 +631,7 @@ hr.short.center {
   .sm-padded     { padding: 5%; }
   .sm-padded-1   { padding: 1rem; }
   .sm-padded-05  { padding: 0.5rem; }
+  .sm-padded-t  { padding-top:5%; }
 
   .sm-padded-t-0 { padding-top: 0; }
   .sm-padded-b-0 { padding-bottom: 0; }
@@ -672,7 +673,9 @@ hr.short.center {
   }
 
   .xs-padded-b-0 { padding-bottom: 0; }
-  
+  .xs-padded-t-lg { padding-top: 10%; }
+  .xs-padded-lr { padding-left: 5%; padding-right: 5%; }
+
   .logo { min-height: 7vh; }
   .banner { font-size: 4rem; }
   .banner span { font-size: 5rem; }
@@ -680,8 +683,8 @@ hr.short.center {
   .footer-logo { font-size: 2.8rem; }
   footer p { font-size: 0.5rem; }
 
-  .ctr h2 { font-size: 1.5rem; }
-  .ctr span { font-size: 3rem; }
+  .ctr h2 { font-size: 2rem; }
+  .ctr span { font-size: 3.5rem; }
 
   .mailbox {
     padding-top: 1rem;
