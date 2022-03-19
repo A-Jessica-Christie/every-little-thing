@@ -15,7 +15,6 @@ img { max-width: 100%; height: auto; }
 [class*=col] { padding: 0; }
 [class*=grid] { margin: 0; }
 
-section { position: relative; }
 
 /* ---------- Negative Space Utility Classes  ------------------ */ 
 
@@ -69,8 +68,8 @@ section { position: relative; }
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-right: 0; }
 
-/* Margin Utility Classes */ 
 
+/* Margin Utility Classes */ 
 .margin-t { margin-top: 5%; }
 .margin-b { margin-bottom: 5%; }
 .margin-l { margin-left: 5%; }
@@ -99,8 +98,9 @@ section { position: relative; }
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
 
-/* ------------ Backgrounds & Background Images  ----------------------- */
 
+
+/* ------------ Backgrounds & Background Images  ----------------------- */
 .bg-dark     { background-color: var(--dark);}
 .bg-featured { background-color: var(--featured);}
 .bg-medium   { background-color: var(--medium); }
@@ -124,7 +124,6 @@ section { position: relative; }
   height: 100%;
   background-color: rgba(0,0,0,0.5);
 }
-
 
 .bg-overlay > * {
   z-index: 2;
@@ -157,8 +156,8 @@ a.bg-image { display: block;}
 .bg-pos-r { background-position: right; }
 
 
-/* ------------ Typography Styles ----------------------- */
 
+/* ------------ Typography Styles ----------------------- */
 .left    { text-align: left; }
 .right   { text-align: right; }
 .center  { text-align: center; }
@@ -205,6 +204,7 @@ p:last-child {
 .subtitle       { font-size: 0.8rem; }
 
 
+
 /* ------------ Buttons & Links ------------ */
 a {
     color: inherit;
@@ -244,6 +244,7 @@ p a:hover {
 - .button-inverted, .button-subtle, .button-lg  */
 
 
+
 /* ------------ Logo & Header/Footer -------------- */
 .banner {
   font-family: 'Henny Penny', cursive;
@@ -279,6 +280,11 @@ nav a {
   background-repeat: no-repeat;
   display: block;
   margin: 0 20%;
+  position: absolute;
+  height: 0;
+  top: 10%;
+  left: -19.5%;
+  min-height: 15vh;
 }
 
 .footer-banner {
@@ -300,7 +306,10 @@ footer h3 { font-family: 'WindSong', cursive; font-size: 2.7rem; }
 footer p { font-size: 0.8rem; }
 
 
+
 /* ------------ Menu Hamburger -------------- */
+.relative { position: relative; }
+
 .rotate {
   position: absolute;
   top: 175px;
@@ -426,8 +435,8 @@ polygon { stroke-width: 2px; }
 /* ------------ Contact Forms  ----------------------- */
 
 
-/* ------------ Call to Read / Little Note  -------------- */
 
+/* ------------ Call to Read / Little Note  -------------- */
 .ctr {
   text-align: center;
 }
@@ -474,19 +483,18 @@ a:hover img:last-child { display: inline-block; }
 a:hover img:first-child { display: none; }
 
 
+
 /* ------------ Blogging elements  ----------------------- */
 
 
 
 /* Post Loop Item  */
-
 .post-item {
   text-decoration: none;
 }
 
 
 /* Individual Elements */
-
 .tag {
   display: inline-block;
   font-weight: bold;
@@ -501,8 +509,8 @@ a:hover img:first-child { display: none; }
   color: var(--medium-text);
 }
 
-/* Individual Blog Post Pages  */
 
+/* Individual Blog Post Pages  */
 .blog-content h1 {
   font-family: 'Martel', serif; 
   font-weight: 200;
@@ -535,14 +543,14 @@ a:hover img:first-child { display: none; }
   font-weight: 300;
 }
 
-/* Social Share Nav  */
 
+/* Social Share Nav  */
 .social-share a {
   padding: 0.25rem 0.5rem;
 }
 
-/* Miscelaneous elements  */
 
+/* Miscelaneous elements  */
 hr.short {
   border: 1px solid var(--dark-text);
   width: 2rem;
@@ -555,6 +563,7 @@ hr.short.center {
 }
 
 
+
 /* ------------ Page Name  ----------------------- */
 
 
@@ -562,13 +571,8 @@ hr.short.center {
 
 
 
-
-
-
 /* ------------ Responsive Styles ----------------------- */
-
 /* General CSS Responsive Styles (Apply everywhere unless overriden) */ 
-
 .show-xs, 
 .show-sm,
 .show-md {
@@ -580,9 +584,9 @@ hr.short.center {
   vertical-align: top;
 }
 
+
 /* ------- MD Media Query (64em / 1024px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
-
 @media(max-width:64em) {
 
 	.show-md { display: block; }
@@ -594,7 +598,7 @@ hr.short.center {
   .md-padded-t { padding-top: 5%; }
   .md-padded { padding: 5% }
 
-  
+  .logo { min-height: 13vh; }
   .menu { font-size: 2.8rem; }
   .banner { font-size: 5rem; }
   .banner span { font-size: 7rem; }
@@ -608,10 +612,9 @@ hr.short.center {
 
 }
 
+
 /* ------- SM Media Query (48em / 768px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
-
-
 @media(max-width:48em) {
 
 	.show-sm { display: block; }
@@ -635,6 +638,7 @@ hr.short.center {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
+  .logo { min-height: 10vh; }
   .banner { font-size: 3rem; }
   .banner span { font-size: 5rem; }
   span.purple { font-size: 3rem; }
@@ -643,31 +647,32 @@ hr.short.center {
 
 }
 
+
 /* ------- XS Media Query (36em / 576px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
-
 @media(max-width:36em) {
 
-		.show-xs { display: block; }
-		.hide-xs { display: none;  }
+  .show-xs { display: block; }
+  .hide-xs { display: none;  }
 
-    .subtle-heading-xs {
-      font-weight: 300;
-      font-family: 'Martel', serif; 
-    }
+  .subtle-heading-xs {
+    font-weight: 300;
+    font-family: 'Martel', serif; 
+  }
 
-    .banner { font-size: 4rem; }
-    .banner span { font-size: 5rem; }
-    span.purple { font-size: 4rem; }
-    .footer-logo { font-size: 2.8rem; }
-    footer p { font-size: 0.5rem; }
-  
-    .ctr h2 { font-size: 1.5rem; }
-    .ctr span { font-size: 3rem; }
+  .logo { min-height: 7vh; }
+  .banner { font-size: 4rem; }
+  .banner span { font-size: 5rem; }
+  span.purple { font-size: 4rem; }
+  .footer-logo { font-size: 2.8rem; }
+  footer p { font-size: 0.5rem; }
 
-    .mailbox {
-      padding-top: 1rem;
-      padding-bottom: 5%;
-    }
+  .ctr h2 { font-size: 1.5rem; }
+  .ctr span { font-size: 3rem; }
+
+  .mailbox {
+    padding-top: 1rem;
+    padding-bottom: 5%;
+  }
 
 }
