@@ -3,7 +3,7 @@ layout: post
 title: Knowledge is Power
 description: Some things are better left unspoken
 author: Jessica Christie
-featured: true
+featured: false
 categories: 2cents
 featured_image: https://source.unsplash.com/random?sig=6
 seo: 

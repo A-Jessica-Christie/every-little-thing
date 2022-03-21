@@ -1,13 +1,13 @@
 ---
 layout: post-with-sidebar
-title: People say
+title: People say...
 description:
 author: Jessica Christie
-featured: true
+featured: false
 categories: 2cents
 featured_image: https://source.unsplash.com/random?sig=8
 seo: 
-    title: People say
+    title: People say...
     description:
     social_image: 
     keywords: 

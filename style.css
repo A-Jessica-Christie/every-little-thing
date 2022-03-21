@@ -504,6 +504,25 @@ img:hover.mailbox { animation: none; }
   border-radius: 100px;
 }
 
+.papyrus {
+  min-height: 120vh;
+  background-image: url("images/scroll.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100vh;
+}
+.text-poem p {
+  font-family: 'Charm', cursive;
+  font-size: 1.3rem;
+}
+
 .post-image {
   min-height: 30vh;
   background-color: var(--light-text);
@@ -529,7 +548,7 @@ img:hover.mailbox { animation: none; }
 }
 
 .post-info {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: var(--medium-text);
 }
 
@@ -542,7 +561,7 @@ img:hover.mailbox { animation: none; }
 }
 
 .blog-content p {
-  line-height: 1.6;
+  line-height: 1;
 }
 
 .blog-content hr {

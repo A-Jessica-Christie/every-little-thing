@@ -2,12 +2,10 @@
 layout: default
 ---
 
-THIS IS WHERE TO PUT THE BACKGROUND OR WHATEVER
-
-<section class="padded capped-width-narrow blog-content">
-
-
-        <div class="intro padded-1 center margin-b-2">
+<section class="padded padded-t-0 capped-width-narrow blog-content relative">
+    <img class="papyrus" src="/images/scroll.jpg" style="width:100%">
+    <div class="abs">
+        <div class="intro padded-1 center margin-b-1">
 
             {% for item in page.categories %}
                 <span class="tag"> {{ item }} </span>
@@ -19,11 +17,12 @@ THIS IS WHERE TO PUT THE BACKGROUND OR WHATEVER
          
         </div>
 
-        <div class="padded-1">
+        <div class="padded-1 center text-poem">
 
             {{content}}
 
         </div>
+    </div>
         
         {% include social-share.html %}
 

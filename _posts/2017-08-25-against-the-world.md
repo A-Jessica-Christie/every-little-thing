@@ -1,13 +1,13 @@
 ---
 layout: post-with-sidebar
-title: Against the world
+title: Against the World
 description:
 author: Jessica Christie
 featured: true
 categories: poems
 featured_image: https://source.unsplash.com/random?sig=8
 seo: 
-    title: Against the world
+    title: Against the World
     description: 
     social_image: 
     keywords: 

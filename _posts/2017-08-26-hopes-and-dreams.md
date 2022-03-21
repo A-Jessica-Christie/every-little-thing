@@ -3,7 +3,7 @@ layout: post
 title: Hopes and Dreams
 description: 
 author: Jessica Christie
-featured: true
+featured: false
 categories: poems
 featured_image: https://source.unsplash.com/random?sig=7
 seo:
