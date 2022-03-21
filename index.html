@@ -24,9 +24,9 @@ seo:
             </svg>
         </div>
         <nav class="padded center">
-            <a href="#"> poems </a>
-            <a href="#"> stories </a>
-            <a href="#"> 2cents </a>
+            {% for link in site.archives %}
+                <a href="{{link.url}}"> {{ link.category }} </a>
+            {% endfor %}
         </nav>
     </div>
 </section>
