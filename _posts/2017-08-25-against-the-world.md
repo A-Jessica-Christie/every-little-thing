@@ -1,5 +1,5 @@
 ---
-layout: post-with-sidebar
+layout: poems-layout
 title: Against the World
 description:
 author: Jessica Christie

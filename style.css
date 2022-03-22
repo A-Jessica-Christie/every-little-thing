@@ -505,8 +505,19 @@ img:hover.mailbox { animation: none; }
 }
 
 .transparent {
+  opacity: 0.75;
+  background-color: var(--light-text);
+}
+
+.dark-transparent {
   opacity: 0.8;
   background-color: black;
+}
+
+.bg-poem {
+  background-image: url("images/red-poem.jpg");
+  max-width: 100%;
+  background-position: 50% 27%;
 }
 
 .bg-tunnel {
