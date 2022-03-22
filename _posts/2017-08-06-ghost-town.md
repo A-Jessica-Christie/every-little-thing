@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: poems-layout
 title: Ghost Town 
 description: There's nothing left...
 author: Jessica Christie

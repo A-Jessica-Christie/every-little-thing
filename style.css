@@ -505,13 +505,23 @@ img:hover.mailbox { animation: none; }
 }
 
 .transparent {
-  opacity: 0.75;
+  opacity: 0.8;
   background-color: var(--light-text);
+  background-image: url("/images/white-paper.jpg");
+  background-position: 2% 82%;
+  border-radius: 2px;
 }
 
 .dark-transparent {
   opacity: 0.8;
   background-color: black;
+  border-radius: 1px;
+}
+
+.bg-stories {
+  background-image: url(/images/writer.jpg);
+  max-width: 100%;
+  background-position: 100% 50%;
 }
 
 .bg-poem {
@@ -538,6 +548,7 @@ img:hover.mailbox { animation: none; }
 .text-poem p {
   font-family: 'Charm', cursive;
   font-size: 1.3rem;
+  line-height: 1.1;
 }
 
 .post-image {
@@ -575,10 +586,6 @@ img:hover.mailbox { animation: none; }
   font-family: 'Martel', serif; 
   font-weight: 200;
   font-size: 3rem;
-}
-
-.blog-content p {
-  line-height: 1;
 }
 
 .blog-content hr {
