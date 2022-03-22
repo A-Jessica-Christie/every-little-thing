@@ -108,7 +108,7 @@ img { max-width: 100%; height: auto; }
 .bg-v-light  { background-color: var(--v-light); }
 
 .bg-image {
-    background-color: var(--light); /* Set a fall-back color while images are loading */ 
+    background-color: var(--accent); /* Set a fall-back color while images are loading */ 
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
