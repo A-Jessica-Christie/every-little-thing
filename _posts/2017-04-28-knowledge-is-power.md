@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Knowledge is Power
-description: Some things are better left unspoken
+description: Let mysteries remain mystery...
 author: Jessica Christie
 featured: false
 categories: 2cents
