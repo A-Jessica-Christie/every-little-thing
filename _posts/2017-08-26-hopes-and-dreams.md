@@ -17,7 +17,7 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
-Hope
+Hope...
 
 is a poison - the sweetest poison
 
@@ -27,7 +27,7 @@ and
 
 &nbsp;
 
-Dream
+Dream...
 
 is just a sad attempt of coping
 
