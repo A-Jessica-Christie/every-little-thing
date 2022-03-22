@@ -2,29 +2,28 @@
 layout: default
 ---
 
-<section class="padded padded-t-0 capped-width-narrow blog-content relative">
-    <img class="papyrus" src="/images/scroll.jpg" style="width:100%">
-    <div class="abs">
-        <div class="intro padded-1 center margin-b-1">
+<section class="padded capped-width-narrow blog-content relative">
 
-            {% for item in page.categories %}
-                <span class="tag"> {{ item }} </span>
-            {% endfor %}
-            
-            <h1> {{ page.title }} </h1>
-            
-            <p class="post-info"> by {{ page.author }} | {{ page.date | date_to_string }} </p>
-         
-        </div>
+    <div class="intro padded-1 center margin-b-2">
 
-        <div class="padded-1 center text-poem">
-
-            {{content}}
-
-        </div>
-    </div>
+        {% for item in page.categories %}
+            <span class="tag"> {{ item }} </span>
+        {% endfor %}
         
-        {% include social-share.html %}
+        <h1> {{ page.title }} </h1>
+        
+        <p class="post-info"> by {{ page.author }} | {{ page.date | date_to_string }} </p>
+        
+    </div>
+
+    <div class="padded-1 center text-poem">
+
+        {{content}}
+
+    </div>
+</div>
+    
+    {% include social-share.html %}
 
 
 </section>

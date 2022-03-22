@@ -504,20 +504,26 @@ img:hover.mailbox { animation: none; }
   border-radius: 100px;
 }
 
-.papyrus {
-  min-height: 120vh;
-  background-image: url("images/scroll.jpg");
-  background-size: cover;
-  background-position: center;
+.transparent {
+  opacity: 0.8;
+  background-color: black;
 }
 
-.abs {
+.bg-tunnel {
+  background-image: url("images/dark-tunnel.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+
+/* .abs {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   min-height: 100vh;
-}
+} */
+
 .text-poem p {
   font-family: 'Charm', cursive;
   font-size: 1.3rem;
@@ -549,7 +555,7 @@ img:hover.mailbox { animation: none; }
 
 .post-info {
   font-size: 0.7rem;
-  color: var(--medium-text);
+  color: var(--light-text);
 }
 
 
@@ -588,9 +594,8 @@ img:hover.mailbox { animation: none; }
 
 
 /* Social Share Nav  */
-.social-share a {
-  padding: 0.25rem 0.5rem;
-}
+.social-share a { padding: 0.25rem 0.5rem; }
+.social-share h4 { font-size: 1.3rem; }
 
 
 /* Miscelaneous elements  */
@@ -699,6 +704,7 @@ hr.short.center {
   .banner span { font-size: 5rem; }
   span.purple { font-size: 3rem; }
 
+  .text-poem p { font-size: 1.1rem; }
   .ctr h2 { font-size: 1.8rem; }
   .ctr span { font-size: 3.5rem; }
   .footer-logo { font-size: 3rem; }
