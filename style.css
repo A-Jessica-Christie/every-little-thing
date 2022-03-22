@@ -285,6 +285,7 @@ nav a {
   top: 10%;
   left: -19.5%;
   min-height: 15vh;
+  width: 220px;
 }
 
 .footer-banner {
@@ -675,7 +676,7 @@ hr.short.center {
   .md-padded-t-lg { padding-top: 10%; }
 
 
-  .logo { min-height: 13vh; }
+  .logo { min-height: 13vh; width: 190px; }
   .menu { font-size: 2.8rem; }
   .banner { font-size: 5rem; }
   .banner span { font-size: 7rem; }
@@ -723,7 +724,7 @@ hr.short.center {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
-  .logo { min-height: 10vh; }
+  .logo { min-height: 10vh; width: 150px; }
   .banner { font-size: 3rem; }
   .banner span { font-size: 5rem; }
   span.purple { font-size: 3rem; }
@@ -757,7 +758,7 @@ hr.short.center {
   .xs-padded-lr { padding-left: 7%; padding-right: 7%; }
   .xs-padded-t-lg { padding-top: 10%; }
 
-  .logo { min-height: 7vh; }
+  .logo { min-height: 7vh; width: 102px; }
   .banner { font-size: 4rem; }
   .banner span { font-size: 5rem; }
   span.purple { font-size: 4rem; }
