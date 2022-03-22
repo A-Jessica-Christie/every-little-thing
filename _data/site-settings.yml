@@ -12,12 +12,12 @@ social:
   twitter_username: https://twitter.com/jc_chii
 design:
   dark-text_color: '#555555'
-  medium-text_color: rgb(90,90,95)
-  light-text_color: white
-  featured-text_color: '#E7C7EF'
+  medium-text_color: '#5a5a5f'
+  light-text_color: '#ffffff'
+  featured-text_color: '#e7c7ef'
   dark_color: '#555555'
   medium_color: '#ede8e4'
-  light_color: '#FFD5EF'
-  v-light_color: '#DDFDFE'
-  featured_color: '#E7C7EF'
-  accent_color: '#E8E8FF'
+  light_color: '#ffd5ef'
+  v-light_color: '#ddfdfe'
+  featured_color: '#e7c7ef'
+  accent_color: '#e8e8ff'
