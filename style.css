@@ -545,6 +545,11 @@ img:hover.mailbox { animation: none; }
   min-height: 100vh;
 } */
 
+.text-post p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
 .text-poem p {
   font-family: 'Charm', cursive;
   font-size: 1.3rem;
@@ -579,6 +584,7 @@ img:hover.mailbox { animation: none; }
   font-size: 0.7rem;
   color: var(--light-text);
 }
+
 
 
 /* Individual Blog Post Pages  */
