@@ -1,14 +1,14 @@
 ---
 layout: post
-title: If you want something
-description: You gotta work for it
+title: If you want something...
+description: You gotta work for it!
 author: Jessica Christie
 featured: false
 categories: 2cents
 featured_image: https://source.unsplash.com/random?sig=9
 seo:
-    title: If you want something
-    description: You gotta work for it
+    title: If you want something...
+    description: You gotta work for it!
     social_image:
     keywords:
     hide-from-google: false

@@ -8,7 +8,7 @@ categories: 2cents
 featured_image: https://source.unsplash.com/random?sig=6
 seo:
     title: Knowledge is Power
-    description:
+    description: Let mysteries remain mystery...
     social_image:
     keywords:
     hide-from-google: false

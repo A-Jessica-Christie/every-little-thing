@@ -1,20 +1,18 @@
 ---
 layout: poems-layout
-title: Pray for me
+title: Pray
 description:
 author: Jessica Christie
 featured: false
 categories: poems
 featured_image: https://source.unsplash.com/random?sig=10
 seo:
-  title: Pray for me
+  title: Pray
   description:
   social_image:
   keywords:
   hide-from-google: false
 ---
-## …
-
 Pray for me…
 
 Pray for my sins…
