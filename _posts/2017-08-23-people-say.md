@@ -10,6 +10,7 @@ seo:
     title: People say...
     description:
     social_image:
+    url: https://pretty-rose.cloudvent.net/posts/2017/people-say
     keywords:
     hide-from-google: false
 ---
@@ -36,3 +37,6 @@ Stop labeling people with stuff that you can’t even understand. It’s showing
 If you want respect, you have to respect others first.
 
 Never forget the golden rule: Do unto others as you would have them do unto you…
+
+&nbsp;
+

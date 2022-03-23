@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: stories-layout
 title: Broken Wings
 description: Take these broken wings and learn how to fly
 author: Jessica Christie
@@ -10,6 +10,7 @@ seo:
     title: Broken Wings
     description: Take these broken wings and learn how to fly
     social_image:
+    url: https://pretty-rose.cloudvent.net/posts/2017/broken-wings
     keywords:
     hide-from-google: false
 ---
@@ -20,3 +21,6 @@ Humans are created in the image of God. So if God has wings, we also have wings 
 So I’ll give up my wings for you. I know it’s not much. I know it’s broken and it’s not perfect. But some of the parts are still working, so you can use them to fix your own. It’s all right. I don’t mind. I’ll be happy seeing you fly… It will break again at some point, but you don’t have to worry about anything, because I will be down here, and I will catch you when you fall. Always…
 
 #### I promise.
+
+&nbsp;
+

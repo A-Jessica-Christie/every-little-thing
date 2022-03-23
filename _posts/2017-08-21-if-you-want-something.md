@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: stories-layout
 title: If you want something...
 description: You gotta work for it!
 author: Jessica Christie
@@ -10,6 +10,7 @@ seo:
     title: If you want something...
     description: You gotta work for it!
     social_image:
+    url: https://pretty-rose.cloudvent.net/posts/2017/if-you-want-something
     keywords:
     hide-from-google: false
 ---
@@ -36,3 +37,5 @@ If you don’t succeed today, you will, tomorrow…
 You are the key to your happiness.
 
 Never give up\!
+
+&nbsp;

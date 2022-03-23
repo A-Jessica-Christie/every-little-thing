@@ -549,12 +549,14 @@ img:hover.mailbox { animation: none; }
 .text-post p {
   font-size: 0.85rem;
   line-height: 1.5;
+  margin: 0;
 }
 
 .text-poem p {
   font-family: 'Charm', cursive;
   font-size: 1.3rem;
-  line-height: 1.1;
+  line-height: 2;
+  margin: 0;
 }
 
 .post-image {
@@ -592,6 +594,9 @@ img:hover.mailbox { animation: none; }
   font-family: 'Martel', serif; 
   font-weight: 200;
   font-size: 3rem;
+  line-height: 0.8;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .blog-content hr {

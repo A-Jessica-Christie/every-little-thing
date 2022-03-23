@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: stories-layout
 title: Knowledge is Power
 description: Let mysteries remain mystery...
 author: Jessica Christie
@@ -10,6 +10,7 @@ seo:
     title: Knowledge is Power
     description: Let mysteries remain mystery...
     social_image:
+    url: https://pretty-rose.cloudvent.net/posts/2017/knowledge-is-power
     keywords:
     hide-from-google: false
 ---
@@ -34,3 +35,5 @@ Before you wanna know about something, before you wanna learn about any thing, k
 Don’t go blindly into some dark and untouched places, until you know what’s in it for you, or else\!
 
 Your choice…
+
+&nbsp;

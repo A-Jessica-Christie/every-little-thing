@@ -10,6 +10,7 @@ seo:
     title: Against the World
     description:
     social_image:
+    url: https://pretty-rose.cloudvent.net/posts/2017/against-the-world
     keywords:
     hide-from-google: false
 ---

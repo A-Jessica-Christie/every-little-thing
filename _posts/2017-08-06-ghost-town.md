@@ -10,6 +10,7 @@ seo:
     title: Ghost Town
     description: There's nothing left...
     social_image: 
+    url: https://pretty-rose.cloudvent.net/posts/2017/ghost-town
     keywords: 
     hide-from-google: false
 ---

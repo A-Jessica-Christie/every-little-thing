@@ -10,6 +10,7 @@ seo:
     title: Thinkers and Doers
     description: Which one do you think is happier?
     social_image:
+    url: https://pretty-rose.cloudvent.net/posts/2017/thinkers-and-doers
     keywords:
     hide-from-google: false
 ---
@@ -68,3 +69,6 @@ Don’t be afraid to make mistakes. Don’t be scared if people reject you. If t
 “Children are happy because they don’t have a file in their minds called ‘All the things that could go wrong’.”
 
 * Marianne Williamson
+
+&nbsp;
+

@@ -10,6 +10,7 @@ seo:
   title: Hopes and Dreams
   description:
   social_image:
+  url: https://pretty-rose.cloudvent.net/posts/2017/hopes-and-dreams
   twitter_card:
   keywords:
   hide-from-google: false
@@ -17,7 +18,7 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
-Hope...
+Hope
 
 is a poison - the sweetest poison
 
@@ -27,7 +28,7 @@ and
 
 &nbsp;
 
-Dream...
+Dream
 
 is just a sad attempt of coping
 
