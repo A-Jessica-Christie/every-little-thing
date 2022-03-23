@@ -1,15 +1,15 @@
 ---
-layout: poems-layout
+layout: poems-layout-ghost
 title: Ghost Town 
 description: There's nothing left...
 author: Jessica Christie
 featured: true
 categories: poems
-featured_image: https://source.unsplash.com/random?sig=4
+featured_image: /images/moon.jpg
 seo: 
     title: Ghost Town
     description: There's nothing left...
-    social_image: 
+    social_image: /images/abandoned.jpg
     url: https://pretty-rose.cloudvent.net/posts/2017/ghost-town
     keywords: 
     hide-from-google: false
