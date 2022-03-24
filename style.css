@@ -2,7 +2,6 @@
 /* Looking for the color variables? They have been moved to the inline-styles file in the _includes folder, and pull variables from the site-settings folder in the _data folder.  */
 
 /* ----------- CSS RESET --------- */
-
 * {
     padding: 0;
     margin: 0;
@@ -14,6 +13,11 @@ img { max-width: 100%; height: auto; }
 /* Override default gridlex padding */ 
 [class*=col] { padding: 0; }
 [class*=grid] { margin: 0; }
+
+/* Animation CSS */
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
 
 
 /* ---------- Negative Space Utility Classes  ------------------ */ 
@@ -246,6 +250,8 @@ p a:hover {
 
 
 /* ------------ Logo & Header/Footer -------------- */
+img.banner { width: 950px; }
+
 .banner {
   font-family: 'Henny Penny', cursive;
   font-size: 7rem;
@@ -481,23 +487,9 @@ polygon { stroke-width: 2px; }
 a img:last-child { display: none ; }
 a:hover img:last-child { display: inline-block; }
 a:hover img:first-child { display: none; }
-img.mailbox { animation: shake 2.5s; animation-iteration-count: infinite; width: 250px; }
+img.mailbox { animation: fadeIn 0.5s infinite alternate; }
 img:hover.mailbox { animation: none; }
 
-/* Shake Animation */
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
 
 
 /* ------------ Blogging elements  ----------------------- */
@@ -576,6 +568,19 @@ img:hover.mailbox { animation: none; }
 }
 
 
+/* Attributes */
+.attribute {
+  padding-top: 0.1rem;
+  padding-left: 0.3rem;
+  padding-bottom: 0.1rem;
+  background-color: rgba(0,0,0,0.5);
+  color: black;
+}
+
+.attribute p { font-size: 0.63rem; }
+.attribute a { border: none; font-style: italic; }
+
+
 /* Post Loop Item  */
 .post-item {
   text-decoration: none;
@@ -631,7 +636,7 @@ img:hover.mailbox { animation: none; }
 }
 
 .sidebar-nav {
-  background-color: black;
+  background-color: #e4e1dd;
   position: fixed;
   top: 0;
   right: -2px;
@@ -647,15 +652,11 @@ img:hover.mailbox { animation: none; }
   font-weight: 200;
   font-size: 2rem;
   z-index: 4;
-  color: var(--light-text);
+  color: var(--dark);
 }
 
-.sidebar-nav.sbw { background-color: #e4e1dd; }
-.sbw.sidebar-button { color: var(--dark); }
-.sbw.sidebar-button:hover.sbw { color: var(--light-text); }
-
   /* Styles when the sidebar button is active  */
-.sidebar-button:hover { color: var(--dark-text); }
+.sidebar-button:hover { color: black; }
 .sidebar-button .fa-circle-chevron-right { display: none; }
 .sidebar-button.nav-open { padding-top: 0.8rem; }
 .sidebar-button.nav-open .fa-circle-chevron-left { display: none; }
@@ -665,6 +666,8 @@ img:hover.mailbox { animation: none; }
   display: none; 
   background-color: var(--dark);
   padding: 5%;
+  padding-left: 3%;
+  padding-top: 0;
   position: fixed; 
   z-index:3;
   top: 0;
@@ -673,15 +676,22 @@ img:hover.mailbox { animation: none; }
   text-align: center;
   opacity: 0.97;
   text-align: left;
+  border-top: 50px solid black;
+  border-bottom: 50px solid black;
+  border-left: 30px solid black;
+  border-right: 30px solid black;
 }
 
 .sidebar-menu a {
   color: var(--light-text); 
-  padding: 0.3rem 0.1rem ;
+  padding: 0.2rem 0.1rem 0.2rem 0.3rem;
+  margin: 0.2rem 0.5rem;
   display: block;
 }
 
 .sidebar-menu a:hover { color: var(--featured); }
+.sidebar-menu .social-nav { display: inline-block; }
+.sidebar-menu .nav-title:first-child { margin-top: 0.35rem; }
 
 .sidebar-menu .nav-title {
   color: black;
@@ -693,6 +703,47 @@ img:hover.mailbox { animation: none; }
   margin-top: 1rem;
 }
 
+/* Dark Mode Styles */
+.dark-mode p {
+  color: var(--light-text);
+  font-family: 'Mulish', serif;
+  padding: 0.2rem 0.1rem 0.2rem 0.3rem;
+  margin: 0.2rem 0.5rem;
+}
+
+.toggle-container {
+  background-color: var(--featured);
+  height: 1.5rem;
+  width: 3rem;
+  padding: 0.2rem;
+  display: inline-block;
+  border-radius: 3rem;
+  text-align: left;
+  border: 1px solid var(--light-text);
+}
+
+.toggle-ball {
+  background-color: var(--light-text);
+  height: 1rem;
+  width: 1.1rem;
+  display: inline-block;
+  border-radius: 2rem;
+}
+
+.toggle-container.dark-mode-active {
+  background-color: black;
+  text-align: right;
+}
+
+/* Dark Mode Styles Active */
+.dark-mode-active {
+  background-color: var(--dark);
+  color: var(--light-text);
+  background-image: none;
+  opacity: 0.85;
+}
+
+.attribute.dark-mode-active { display: none; }
 
 /* Social Share Nav  */
 .social-share a { padding: 0.25rem 0.5rem; }
@@ -705,6 +756,8 @@ hr.short {
   width: 2rem;
   margin: 1rem 0;
 }
+
+hr.short.sbw { border: 1px solid var(--light-text); }
 
 hr.short.center {
   margin:auto;
@@ -815,7 +868,7 @@ hr.short.center {
     left: 0;
     opacity: 1;
     padding: 10%;
-    overflow-y: scroll;
+    padding-top: 0;
   }
 
 }
@@ -855,5 +908,9 @@ hr.short.center {
     padding-top: 1rem;
     padding-bottom: 5%;
   }
+
+  .sidebar-nav { height: 0; right: -22px; }
+  .sidebar-button { font-size: 3rem; color: var(--v-light); }
+  .sidebar-menu { right: 35px; }
 
 }

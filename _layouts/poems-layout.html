@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="padded-lg capped-width-narrow blog-content bg-image bg-poem grid-center">
-    <div class="padded-b-lg col-7_md-9_sm-11_xs-12 transparent">
+    <div class="padded-b-lg col-7_md-9_sm-11_xs-12 transparent dm-style">
         <div class="intro padded-1 padded-t-lg center margin-b-1">
 
             {% for item in page.categories %}
@@ -22,10 +22,11 @@ layout: default
 
         </div>
     
+        <hr class="short center">
         {% include social-share.html %}
     </div>
 
     <!-- Sidebar Widget White -->
-    {% include sidebar-widget-w.html %}
+    {% include sidebar-widget.html %}
 
 </section>

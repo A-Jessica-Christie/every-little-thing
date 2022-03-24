@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="padded-lg capped-width-narrow blog-content bg-image bg-tunnel grid">
-    <div class="padded-b-lg col-7_md-9_sm-11_xs-12 dark-transparent text-light">
+    <div class="padded-b-lg col-7_md-9_sm-11_xs-12 dark-transparent dm-style text-light">
         <div class="intro padded-1 padded-t-lg center margin-b-1">
 
             {% for item in page.categories %}
@@ -21,11 +21,16 @@ layout: default
             {{content}}
 
         </div>
-        
+
+        <hr class="short sbw center"> 
         {% include social-share.html %}
     </div>
 
     <!-- Sidebar Widget Black -->
-    {% include sidebar-widget-b.html %}
+    {% include sidebar-widget.html %}
 
 </section>
+
+<div class="attribute">
+    <p> - Image by <a href="https://pixabay.com/users/taylorsmith-6830663/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2890114">TaylorSmith</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2890114">Pixabay</a> </p>
+ </div>

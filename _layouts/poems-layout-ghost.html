@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<section class="padded-lg capped-width-narrow blog-content bg-image bg-ghost grid">
-    <div class="padded-b-lg col-7_md-9_sm-11_xs-12 dark-transparent text-light">
+<section class="padded-lg capped-width-narrow blog-content bg-image bg-ghost grid-center">
+    <div class="padded-b-lg col-7_md-9_sm-11_xs-12 dark-transparent dm-style text-light">
         <div class="intro padded-1 padded-t-lg center margin-b-1">
 
             {% for item in page.categories %}
@@ -22,10 +22,15 @@ layout: default
 
         </div>
         
+        <hr class="short sbw center">
         {% include social-share.html %}
     </div>
 
     <!-- Sidebar Widget Black -->
-    {% include sidebar-widget-b.html %}
+    {% include sidebar-widget.html %}
 
 </section>
+
+<div class="attribute">
+    <p> - Image by <a href="https://pixabay.com/users/prettysleepy-2973588/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6886513">Prettysleepy</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6886513">Pixabay</a> </p>
+ </div>
