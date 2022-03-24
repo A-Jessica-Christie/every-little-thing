@@ -1,5 +1,5 @@
 ---
-layout: stories-layout
+layout: 2cents-layout
 title: Broken Wings
 description: Take these broken wings and learn how to fly
 author: Jessica Christie

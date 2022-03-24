@@ -2,12 +2,10 @@
 layout: default
 ---
 
-THIS IS WHERE TO PUT THE BACKGROUND OR WHATEVER
+<section class="padded capped-width-narrow blog-content bg-image bg-thoughts grid-center">
 
-<section class="padded capped-width-narrow blog-content">
-
-
-        <div class="intro padded-1 center margin-b-2">
+    <div class="padded-b col-9_sm-11_xs-12 dark-transparent dm-style text-light">
+        <div class="intro padded-tb center margin-b-1">
 
             {% for item in page.categories %}
                 <span class="tag"> {{ item }} </span>
@@ -19,26 +17,21 @@ THIS IS WHERE TO PUT THE BACKGROUND OR WHATEVER
          
         </div>
 
-        <div class="padded-1">
+        <div class="padded-lr text-post">
 
             {{content}}
 
         </div>
         
-        <hr class="short center">
+        <hr class="short sbw center">
         {% include social-share.html %}
-
-
-</section>
-
-{% include related-posts.html %}
-
-<section class="padded">
-    <div class="capped-width-narrow">
-
-        <h2 class="center">About Me</h2>  
-        <p> - No sidebar - Tempore non voluptatem aperiam culpa iste nostrum, nihil quae autem optio fugit laboriosam facere sint labore exercitationem tenetur sunt? Voluptate, voluptas repellendus.</p>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore non voluptatem aperiam culpa iste nostrum, nihil quae autem optio fugit laboriosam facere sint labore exercitationem tenetur sunt? Voluptate, voluptas repellendus.</p>
-    
     </div>
+
+    <!-- Sidebar Widget Black -->
+    {% include sidebar-widget.html %}
+
 </section>
+
+<div class="attribute">
+    <p> - Photo by <a href="https://unsplash.com/@jareddc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jaredd Craig</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> </p>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: stories-layout
+layout: 2cents-layout
 title: Knowledge is Power
 description: Let mysteries remain mystery...
 author: Jessica Christie

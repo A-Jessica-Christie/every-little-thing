@@ -1,6 +1,34 @@
 ---
 title: Poems for you
-layout: archives
-description_html: Poems for you
+layout: default
+description_html: 
 category: poems
 ---
+
+<!------------------------ Archive Blog Loop ------------------------>
+<div class="bg-image bg-train">
+
+    {% include category-post-loop.html %}
+
+</div>
+
+<!-- Quote Section -->
+<section class="padded-lg sm-padded-1 sm-padded-t-lg grid">
+    <div class="col-1 center padded-l-1 sm-padded-l-0">
+        <span class="quote-icon">
+            <i class="fa-solid fa-quote-left"></i>
+        </span>
+    </div>
+    <div class="col-10 center">
+        <p class="quote"> When you really want someone to talk with, but you couldn't, because you don't want them to have the same dark mood as the one you're having... </p>
+        <p class="subtitle"> - Jessica Christie </p>
+    </div>
+    <div class="col-1 center padded-r-1 sm-padded-r-0">
+        <span class="quote-icon">
+            <i class="fa-solid fa-quote-right"></i>
+        </span>
+    </div>
+</section>
+
+
+{% include site-footer.html %}

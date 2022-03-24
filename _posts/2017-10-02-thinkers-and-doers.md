@@ -1,5 +1,5 @@
 ---
-layout: post-with-sidebar
+layout: 2cents-layout
 title: Thinkers and Doers
 description: Which one do you think is happier?
 author: Jessica Christie

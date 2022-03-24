@@ -205,7 +205,7 @@ p:last-child {
 .text-featured  { color: var(--featured-text);}
 .text-light     { color: var(--light-text);}
 .subtle         { opacity: 0.8;     }
-.subtitle       { font-size: 0.8rem; }
+.subtitle       { font-size: 0.8rem; color: rgb(120,120,125); }
 
 
 
@@ -539,6 +539,27 @@ img:hover.mailbox { animation: none; }
   background-position: center;
 }
 
+.bg-trapped {
+  background-image: url("/images/trapped.jpg");
+  background-size: cover;
+  max-width: 100%;
+  background-position: top;
+}
+
+.bg-thoughts {
+  background-image: url("/images/thoughts.jpg");
+  background-size: cover;
+  max-width: 100%;
+  background-position: center;
+}
+
+.bg-train {
+  background-image: url("/images/train-of-thoughts.jpg");
+  background-size: cover;
+  max-width: 100%;
+  background-position: center;
+}
+
 /* .abs {
   position: absolute;
   top: 50%;
@@ -601,6 +622,17 @@ img:hover.mailbox { animation: none; }
   font-size: 0.7rem;
 }
 
+
+/* Quote Segment */
+.quote-icon {
+  font-size: 2.5rem;
+  display: inline-block;
+  color: var(--dark);
+  line-height: 1;
+  opacity: 0.5;
+}
+
+.quote { font-size: 1.3rem; }
 
 
 /* Individual Blog Post Pages  */
@@ -691,16 +723,16 @@ img:hover.mailbox { animation: none; }
 
 .sidebar-menu a:hover { color: var(--featured); }
 .sidebar-menu .social-nav { display: inline-block; }
-.sidebar-menu .nav-title:first-child { margin-top: 0.35rem; }
+.sidebar-menu .nav-title:first-child { padding-bottom: 1rem; }
 
 .sidebar-menu .nav-title {
   color: black;
-  padding: 0.8rem 0 0.5rem;
+  padding: 0.8rem 0 0.1rem;
   display: block;
   letter-spacing: 1px;
   font-size: .9rem;
   text-transform: uppercase;
-  margin-top: 1rem;
+  margin-top: 0.3rem;
 }
 
 /* Dark Mode Styles */
@@ -837,7 +869,8 @@ hr.short.center {
   .sm-padded     { padding: 5%; }
   .sm-padded-1   { padding: 1rem; }
   .sm-padded-05  { padding: 0.5rem; }
-  .sm-padded-t  { padding-top:5%; }
+  .sm-padded-t   { padding-top: 5%; }
+  .sm-padded-t-lg { padding-top: 10%; }
 
   .sm-padded-t-0 { padding-top: 0; }
   .sm-padded-b-0 { padding-bottom: 0; }
@@ -904,6 +937,7 @@ hr.short.center {
   .ctr h2 { font-size: 2rem; }
   .ctr span { font-size: 3.5rem; }
 
+  .quote { font-size: 1.2rem; }
   .mailbox {
     padding-top: 1rem;
     padding-bottom: 5%;
@@ -911,6 +945,12 @@ hr.short.center {
 
   .sidebar-nav { height: 0; right: -22px; }
   .sidebar-button { font-size: 3rem; color: var(--v-light); }
-  .sidebar-menu { right: 35px; }
+  .sidebar-menu .nav-title { padding-bottom: 0; }
+  .sidebar-menu .nav-title:first-child { padding-bottom: 1rem; }
+  .sidebar-menu {
+    right: 35px;
+    border: 20px solid black;
+    padding-top: 5%;
+  }
 
 }

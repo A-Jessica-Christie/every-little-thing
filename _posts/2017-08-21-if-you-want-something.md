@@ -1,5 +1,5 @@
 ---
-layout: stories-layout
+layout: 2cents-layout
 title: If you want something...
 description: You gotta work for it!
 author: Jessica Christie
