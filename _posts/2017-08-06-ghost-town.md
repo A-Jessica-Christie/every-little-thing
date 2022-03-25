@@ -5,7 +5,7 @@ description: There's nothing left...
 author: Jessica Christie
 featured: true
 categories: poems
-featured_image: /images/moon.jpg
+featured_image: /images/ghost.jpg
 seo: 
     title: Ghost Town
     description: There's nothing left...

@@ -5,7 +5,7 @@ description: Let mysteries remain mystery...
 author: Jessica Christie
 featured: false
 categories: 2cents
-featured_image: https://images.unsplash.com/photo-1593410733607-4fe72c8f3f73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1712&q=80
+featured_image: /images/knowledge.jpg
 seo:
     title: Knowledge is Power
     description: Let mysteries remain mystery...

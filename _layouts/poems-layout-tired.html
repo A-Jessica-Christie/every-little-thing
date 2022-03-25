@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<section class="padded-lg capped-width-narrow blog-content bg-image bg-tired grid-center">
+    <div class="padded-b-lg col-7_md-9_sm-11_xs-12 transparent dm-style">
+        <div class="intro padded-1 padded-t-lg center margin-b-1">
+
+            {% for item in page.categories %}
+                <span class="tag"> {{ item }} </span>
+            {% endfor %}
+            
+            <h1> {{ page.title }} </h1>
+            
+            <p class="post-info"> by {{ page.author }} | {{ page.date | date_to_string }} </p>
+            
+        </div>
+
+        <div class="padded-1 center text-poem">
+
+            {{content}}
+
+        </div>
+    
+        <hr class="short center">
+        {% include social-share.html %}
+    </div>
+
+    <!-- Sidebar Widget White -->
+    {% include sidebar-widget.html %}
+
+</section>
+
+<div class="attribute">
+    <p> - Image by <a href="https://pixabay.com/users/dieterich01-2819333/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4198383">Lothar Dieterich</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4198383">Pixabay</a> </p>
+</div>

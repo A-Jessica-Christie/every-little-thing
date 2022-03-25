@@ -1,13 +1,13 @@
 ---
 layout: 2cents-layout
-title: If you want something...
+title: If you want something
 description: You gotta work for it!
 author: Jessica Christie
 featured: false
 categories: 2cents
-featured_image: https://source.unsplash.com/random?sig=9
+featured_image: /images/want.jpg
 seo:
-    title: If you want something...
+    title: If you want something
     description: You gotta work for it!
     social_image:
     url: https://pretty-rose.cloudvent.net/posts/2017/if-you-want-something

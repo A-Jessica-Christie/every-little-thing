@@ -5,7 +5,7 @@ description: Take these broken wings and learn how to fly
 author: Jessica Christie
 featured: true
 categories: 2cents
-featured_image: https://cdn.pixabay.com/photo/2020/08/04/21/35/angel-5463883_960_720.jpg
+featured_image: /images/icarus.jpg
 seo:
     title: Broken Wings
     description: Take these broken wings and learn how to fly
