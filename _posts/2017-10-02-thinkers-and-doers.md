@@ -5,7 +5,7 @@ description: Which one do you think is happier?
 author: Jessica Christie
 featured: true
 categories: 2cents
-featured_image: https://source.unsplash.com/random?sig=8
+featured_image: https://images.unsplash.com/photo-1620662736427-b8a198f52a4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80
 seo:
     title: Thinkers and Doers
     description: Which one do you think is happier?

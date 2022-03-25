@@ -5,7 +5,7 @@ description:
 author: Jessica Christie
 featured: false
 categories: 2cents
-featured_image: https://source.unsplash.com/random?sig=8
+featured_image: https://images.unsplash.com/photo-1530053190459-2b3a69cad5cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80
 seo:
     title: People say...
     description:

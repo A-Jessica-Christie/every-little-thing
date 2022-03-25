@@ -2,8 +2,8 @@
 <!-- Since the post loop item uses a column class, make sure the parent container has a grid -->
 
 <div class="col-4_sm-6_xs-12 post-item padded">
-    <a href="{{ post.url }}" class="bg-image square" style="background-image:url( '{{ post.featured_image }}' );"></a>
-    <div class="padded-t-1 padded-b-1 sm-text-center">
+    <a href="{{ post.url }}" class="bg-image post-image square" style="background-image:url( '{{ post.featured_image }}' );"></a>
+    <div class="post-image center">
         
         {% for item in post.categories %}
             <span class="tag"> {{item}} </span>

@@ -1,20 +1,12 @@
-<section class="padded">
+<div class="col-12 padded center margin-b-1">
 
-    <div class="capped-width grid-center dark-transparent text-light">
+    <h2 class="dark-transparent padded text-light"> {{ page.title }}</h2>
+    {{ page.description_html }}
 
-        <div class="col-9 padded center margin-b-1">
+</div>
 
-            <h2> {{ page.title }}</h2>
-            {{ page.description_html }}
+    {% for post in site.categories[page.category] limit:12 %}
 
-        </div>
+        {% include post-loop-item-square.html %}
 
-            {% for post in site.categories[page.category] limit:12 %}
-
-                {% include post-loop-item-square.html %}
-
-            {% endfor %}
-
-    </div>
-
-</section>
+    {% endfor %}

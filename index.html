@@ -46,7 +46,7 @@ seo:
         {% for post in featured_posts limit:2 %}
 
             <div class="grid post-item padded">
-                <div class="col-6_xs-12 bg-image post-image padded" style="background-image:url( '{{ post.featured_image }}' );"></div>
+                <div class="col-6_xs-12 bg-image padded" style="background-image:url( '{{ post.featured_image }}' );"></div>
                 <div class="col-6_xs-12 padded post-text xs-text-center">
                     
                     {% for item in post.categories %}
