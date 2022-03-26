@@ -573,6 +573,13 @@ img:hover.mailbox { animation: none; }
   background-position: center;  
 }
 
+.bg-tired {
+  background-image: url("/images/tired-angel.jpg");
+  background-size: cover;
+  max-width: 100%;
+  background-position: center;
+}
+
 /* Archive Image */
 .bg-books {
   background-image: url("/images/books.jpg");
