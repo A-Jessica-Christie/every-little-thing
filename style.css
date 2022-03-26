@@ -511,6 +511,8 @@ img:hover.mailbox { animation: none; }
   border-radius: 1px;
 }
 
+.opacity-9 { opacity: 0.9; }
+
 /* Background Images */
 .bg-stories {
   background-image: url("/images/writer.jpg");
@@ -649,7 +651,7 @@ img:hover.mailbox { animation: none; }
   text-decoration: none;
 }
 
-.post-image:first-child { border-bottom: none; }
+.post-item .post-image:first-child { border-bottom: none; }
 .post-image {
   min-height: 25vh;
   background-color: var(--light-text);
@@ -795,7 +797,7 @@ img:hover.mailbox { animation: none; }
 
 .toggle-container {
   background-color: var(--featured);
-  height: 1.55rem;
+  height: 1.65rem;
   width: 3rem;
   padding: 0.2rem;
   display: inline-block;
@@ -975,6 +977,7 @@ hr.short.center {
   .xs-padded-r-0 { padding-right: 0; }
   .xs-padded-l-0 { padding-left: 0; }
   .xs-padded-lr { padding-left: 7%; padding-right: 7%; }
+  .xs-padded-lr-5 { padding-left: 5%; padding-right: 5%; }
   .xs-padded-t-lg { padding-top: 10%; }
 
   .logo { min-height: 7vh; width: 125px; }
@@ -993,8 +996,9 @@ hr.short.center {
     padding-bottom: 5%;
   }
 
+  .dark-transparent { opacity: 0.75; }
   .sidebar-nav { height: 0; right: -20px; }
-  .sidebar-button { font-size: 3rem; color: var(--v-light); }
+  .sidebar-button { font-size: 3rem; color: #e4e1dd; }
   .sidebar-menu .nav-title { padding-bottom: 0; }
   .sidebar-menu .nav-title:first-child { padding-bottom: 1rem; }
   .sidebar-menu {
