@@ -3,7 +3,7 @@ layout: 2cents-layout
 title: Thinkers and Doers
 description: Which one do you think is happier?
 author: Jessica Christie
-featured: true
+featured: false
 categories: 2cents
 featured_image: /images/thinkers.jpg
 seo:

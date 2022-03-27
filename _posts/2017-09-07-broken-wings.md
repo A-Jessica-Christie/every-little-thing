@@ -3,7 +3,7 @@ layout: 2cents-layout
 title: Broken Wings
 description: Take these broken wings and learn how to fly
 author: Jessica Christie
-featured: true
+featured: false
 categories: 2cents
 featured_image: /images/icarus.jpg
 seo:

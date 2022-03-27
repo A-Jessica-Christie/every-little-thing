@@ -32,7 +32,7 @@ seo:
 </section>
 
 <!------------------------ Featured blog loop ------------------------>
-<section class="padded padded-t-lg">
+<section class="padded padded-t-lg md-padded-t-xlg sm-padded-t-xlg">
 
     <div class="capped-width padded mint">
 
@@ -46,8 +46,8 @@ seo:
         {% for post in featured_posts limit:2 %}
 
             <div class="grid padded">
-                <div class="col-6_xs-12 bg-image post-image padded" style="background-image:url( '{{ post.featured_image }}' );"></div>
-                <div class="col-6_xs-12 padded post-image xs-text-center">
+                <div class="col-6_xs-12 bg-image padded" style="background-image:url( '{{ post.featured_image }}' ); box-shadow: -20px -20px 15px 3px var(--dark); min-height: 30vh;"></div>
+                <div class="col-6_xs-12 padded xs-text-center">
                     
                     {% for item in post.categories %}
                         <span class="tag"> {{item}} </span>
@@ -67,7 +67,7 @@ seo:
 </section>
 
 <!---------------- Call to READ / Little Note ---------------->
-<section class="grid padded padded-t-lg">
+<section class="grid padded padded-t-lg md-padded-t-xlg sm-padded-t-xlg xs-padded-t-lg">
     <div class="col-3-top padded padded-r-1 padded-t-0 sm-padded-t xs-padded-t-lg xs-padded-l-0">
         <img src="images/tilde-left.png">
     </div>

@@ -250,12 +250,13 @@ p a:hover {
 
 
 /* ------------ Logo & Header/Footer -------------- */
-img.banner { width: 950px; }
+img.banner { width: 950px; height: 100%; }
 .banner {
   font-size: 7rem;
   line-height: 1.3;
   font-family: 'Henny Penny', cursive;
   color: var(--v-light); 
+  text-shadow: 3px 5px 5px var(--dark);
 }
 
 .banner span {
@@ -493,8 +494,8 @@ img:hover.mailbox { animation: none; }
 /* ------------ Blogging elements  ----------------------- */
 .mint {
   background-color: var(--v-light);
-  border: 2px solid var(--v-light);
   border-radius: 100px;
+  box-shadow: 1px 1px 50px 35px var(--v-light);
 }
 
 .transparent {
@@ -618,6 +619,16 @@ img:hover.mailbox { animation: none; }
   min-height: 100vh;
 } */
 
+.text-shadow {
+  text-shadow: 0 0 2.7px rgb(0 0 0 / 21%),
+               0 0 6.3px rgb(0 0 0 / 30%),
+               0 0 11.3px rgb(0 0 0 / 37%),
+               0 0 18.8px rgb(0 0 0 / 43%),
+               0 0 31px rgb(0 0 0 / 50%),
+               0 0 54.1px rgb(0 0 0 / 59%),
+               0 0 117px rgb(0 0 0 / 80%);
+}
+
 .text-post p {
   font-size: 0.85rem;
   line-height: 1.5;
@@ -656,7 +667,7 @@ img:hover.mailbox { animation: none; }
   min-height: 25vh;
   background-color: var(--light-text);
   border: 20px solid var(--light-text);
-  opacity: 0.93;
+  opacity: 1;
 }
 
 
@@ -887,6 +898,7 @@ hr.short.center {
   .md-padded-b { padding-bottom: 5% }
   .md-padded { padding: 5%; }
   .md-padded-t-lg { padding-top: 10%; }
+  .md-padded-t-xlg { padding-top: 15%; }
 
 
   .logo { min-height: 13vh; width: 232px; }
@@ -923,6 +935,7 @@ hr.short.center {
   .sm-padded-05  { padding: 0.5rem; }
   .sm-padded-t   { padding-top: 5%; }
   .sm-padded-t-lg { padding-top: 10%; }
+  .sm-padded-t-xlg { padding-top: 20%; }
 
   .sm-padded-t-0 { padding-top: 0; }
   .sm-padded-b-0 { padding-bottom: 0; }
@@ -942,6 +955,8 @@ hr.short.center {
   .banner { font-size: 3rem; }
   .banner span { font-size: 5rem; }
   span.purple { font-size: 3rem; }
+
+  .bg-stories { background-attachment: fixed; }
 
   .text-poem p { font-size: 1.1rem; }
   .ctr h2 { font-size: 1.8rem; }
@@ -996,9 +1011,12 @@ hr.short.center {
     padding-bottom: 5%;
   }
 
-  .dark-transparent { opacity: 0.75; }
+  .mint { box-shadow: 1px 1px 20px 10px var(--v-light); }
+  .dark-transparent { opacity: 0.78; }
+  .dark-transparent.opacity-9 { background: none; opacity: 1; }
+  .post-image { opacity: 0.95; }
+
   .sidebar-nav { height: 0; right: -20px; }
-  .sidebar-button { font-size: 3rem; color: #e4e1dd; }
   .sidebar-menu .nav-title { padding-bottom: 0; }
   .sidebar-menu .nav-title:first-child { padding-bottom: 1rem; }
   .sidebar-menu {
@@ -1007,6 +1025,17 @@ hr.short.center {
     padding-top: 8%;
     border-top: none;
     border-bottom: none;
+  }
+  .sidebar-button {
+    font-size: 3rem;
+    color: #e4e1dd;
+    text-shadow: 0 0 2.7px rgb(0 0 0 / 21%),
+                 0 0 6.3px rgb(0 0 0 / 30%),
+                 0 0 11.3px rgb(0 0 0 / 37%),
+                 0 0 18.8px rgb(0 0 0 / 43%),
+                 0 0 31px rgb(0 0 0 / 50%),
+                 0 0 54.1px rgb(0 0 0 / 59%),
+                 0 0 117px rgb(0 0 0 / 80%);
   }
 
 }
