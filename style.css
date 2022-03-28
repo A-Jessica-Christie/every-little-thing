@@ -22,7 +22,7 @@ img { max-width: 100%; height: auto; }
 
 /* ---------- Negative Space Utility Classes  ------------------ */ 
 
-.capped-width-wide      { max-width: 1600px; margin: auto; }
+.capped-width-wide      { max-width: 1500px; margin: auto; }
 .capped-width           { max-width: 1200px; margin: auto; }
 .capped-width-narrow    { max-width: 1000px; margin: auto; }
 .capped-width-v-narrow  { max-width: 800px;  margin: auto; }
@@ -462,6 +462,7 @@ polygon { stroke-width: 2px; }
   font-size: 4.5rem;
 }
 
+.tilde { max-width: 100%; height: 100%; }
 .arrow { font-size: 3rem; }
 
 .mailbox-padding {
@@ -500,10 +501,11 @@ img:hover.mailbox { animation: none; }
 
 /* ------------ Blogging elements  ----------------------- */
 .mint {
-  background-color: var(--v-light);
   border-radius: 100px;
   box-shadow: 1px 1px 50px 35px var(--v-light);
+  background: radial-gradient(circle, rgba(255,213,239,1) 7%, rgba(232,232,255,1) 45%, rgba(221,253,254,1) 63%);
 }
+
 
 .transparent {
   opacity: 0.8;
@@ -595,9 +597,11 @@ img:hover.mailbox { animation: none; }
   background-image: url("/images/books.jpg");
   background-size: cover;
   max-width: 100%;
-  background-position: 51% 50%;
+  /* background-position: 51% 50%; */
   border-radius: 3px 3px 0 0;
   opacity: 0.85;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
 }
 
 .bg-white-rose {
@@ -607,6 +611,8 @@ img:hover.mailbox { animation: none; }
   background-position: center;
   border-radius: 3px 3px 0 0;
   opacity: 0.85;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
 }
 
 .bg-writing {
@@ -616,15 +622,20 @@ img:hover.mailbox { animation: none; }
   background-position: center;
   border-radius: 3px 3px 0 0;
   opacity: 0.97;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
 }
 
 .bg-rainbow {
-  background-image: url("/images/rainbow.jpg");
-  background-size: cover;
+  background-image: url("/images/banner.svg");
+  background-size: 725px;
   max-width: 100%;
-  background-position: 75% 50%;
-  border-radius: 43%;
-  box-shadow: 1px 1px 35px 35px white inset;
+  background-position: 50% 67%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 100px 77px white inset;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 
 /* .abs {
@@ -724,9 +735,17 @@ img:hover.mailbox { animation: none; }
   padding-bottom: 1.5rem;
 }
 
-.blog-content hr {
-  border: none;
-  border: 1px solid var(--medium);
+hr {
+  border: 1px solid var(--dark-text);
+  width: 2rem;
+  margin: 1rem 0;
+}
+
+hr.sbw { border: 1px solid var(--light-text); }
+
+hr.center {
+  margin:auto;
+  margin: 1rem auto;
 }
 
 
@@ -854,26 +873,13 @@ img:hover.mailbox { animation: none; }
   opacity: 0.85;
 }
 
+hr.dark-mode-active { border: 1px solid var(--light-text); }
 .attribute.dark-mode-active { display: none; }
 
 /* Social Share Nav  */
 .social-share a { padding: 0.25rem 0.5rem; }
 .social-share h4 { font-size: 1.3rem; }
 
-
-/* Miscelaneous elements  */
-hr.short {
-  border: 1px solid var(--dark-text);
-  width: 2rem;
-  margin: 1rem 0;
-}
-
-hr.short.sbw { border: 1px solid var(--light-text); }
-
-hr.short.center {
-  margin:auto;
-  margin: 1rem auto;
-}
 
 
 
@@ -922,6 +928,11 @@ hr.short.center {
   .banner { font-size: 5rem; }
   .banner span { font-size: 7rem; }
   span.purple { font-size: 5rem; }
+  .bg-rainbow { background-size: 615px; background-position: 50% 53%; }
+  .mint {
+    background-attachment: fixed;
+    background: radial-gradient(circle, rgba(255,213,239,1) 7%, rgba(232,232,255,1) 38%, rgba(221,253,254,1) 50%);
+  }
 
   .ctr h2 { font-size: 2rem; }
   .ctr span { font-size: 4rem; }
@@ -945,6 +956,7 @@ hr.short.center {
   .sm-text-center { text-align: center; }
   .sm-text-left   { text-align: left; }
   .sm-text-right  { text-align: right; }
+  .sm-tall-55 { min-height: 55vh;}
 
   .sm-padded     { padding: 5%; }
   .sm-padded-1   { padding: 1rem; }
@@ -971,6 +983,11 @@ hr.short.center {
   .banner { font-size: 3rem; }
   .banner span { font-size: 5rem; }
   span.purple { font-size: 3rem; }
+  .bg-rainbow { background-size: 400px; background-position: 50% 25%; }
+  .mint {
+    background-attachment: fixed;
+    background: radial-gradient(circle, rgba(255,213,239,1) 5%, rgba(232,232,255,1) 35%, rgba(221,253,254,1) 47%);
+  }
 
   .bg-stories { background-attachment: fixed; }
 
@@ -1018,9 +1035,11 @@ hr.short.center {
   .banner { font-size: 4rem; }
   .banner span { font-size: 5rem; }
   span.purple { font-size: 4rem; }
+  .bg-rainbow { background-size: 500px; background-position: 50% 39%; }
+
+
   .footer-logo { font-size: 2.8rem; }
   footer p { font-size: 0.5rem; }
-
   .ctr h2 { font-size: 2rem; }
   .ctr span { font-size: 3.5rem; }
 
@@ -1030,7 +1049,12 @@ hr.short.center {
     padding-bottom: 5%;
   }
 
-  .mint { box-shadow: 1px 1px 20px 10px var(--v-light); }
+  .mint {
+    background-attachment: fixed;
+    box-shadow: 1px 1px 20px 10px var(--v-light);
+    background: radial-gradient(circle, rgba(255,213,239,1) 1%, rgba(232,232,255,1) 15%, rgba(221,253,254,1) 25%);
+  }
+
   .dark-transparent { opacity: 0.78; }
   .dark-transparent.opacity-9 { background: none; opacity: 1; }
   .post-image { opacity: 0.95; }

@@ -16,7 +16,7 @@ design:
   light-text_color: '#ffffff'
   featured-text_color: '#e7c7ef'
   dark_color: '#555555'
-  medium_color: '#ede8e4'
+  medium_color: '#FFB8D1'
   light_color: '#ffd5ef'
   v-light_color: '#ddfdfe'
   featured_color: '#e7c7ef'
