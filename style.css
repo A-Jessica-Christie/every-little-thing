@@ -54,6 +54,8 @@ img { max-width: 100%; height: auto; }
 .padded-b-lg { padding-bottom: 10%; }
 .padded-l-lg { padding-left: 10%; }
 .padded-r-lg { padding-right: 10%; }
+.padded-t-7  { padding-top: 7%; }
+.padded-t-xlg { padding-top: 15%; }
 
 .padded-tb  { padding-top: 5%; padding-bottom: 5%; }
 .padded-lr  { padding-left: 5%; padding-right: 5%; }
@@ -263,7 +265,7 @@ img.banner { width: 950px; height: 100%; }
   font-size: 7rem;
   line-height: 1.3;
   font-family: 'Henny Penny', cursive;
-  color: var(--v-light); 
+  color: var(--accent); 
   text-shadow: 5px 5px 3px var(--dark);
 }
 
@@ -275,7 +277,8 @@ img.banner { width: 950px; height: 100%; }
 
 span.purple {
   font-size: 7rem;
-  color: var(--accent);
+  color: var(--v-light);
+  font-family: 'Henny Penny', cursive;
 }
 
 header nav { background-color: var(--light-text); }
@@ -291,14 +294,13 @@ nav a {
   text-decoration: none;
   background-position: center;
   background-repeat: no-repeat;
-  display: block;
   margin: 0 20%;
   position: absolute;
-  height: 100%;
-  top: 10%;
+  height: 180px;
+  top: -10px;
   left: -19.5%;
   min-height: 15vh;
-  width: 267.5px;
+  width: 180px;
 }
 
 .footer-banner {
@@ -491,9 +493,6 @@ polygon { stroke-width: 2px; }
 }
 
 .mailbox-menu a:hover { bottom: 33%; }
-a img:last-child { display: none ; }
-a:hover img:last-child { display: inline-block; }
-a:hover img:first-child { display: none; }
 img.mailbox { animation: fadeIn 0.5s infinite alternate; width: 200px; height: 100%; }
 img:hover.mailbox { animation: none; }
 
@@ -915,10 +914,10 @@ hr.short.center {
   .md-padded-b { padding-bottom: 5% }
   .md-padded { padding: 5%; }
   .md-padded-t-lg { padding-top: 10%; }
-  .md-padded-t-xlg { padding-top: 15%; }
+  .md-padded-t-xlg { padding-top: 17%; }
 
 
-  .logo { min-height: 13vh; width: 232px; }
+  .logo { min-height: 13vh; }
   .menu { font-size: 2.8rem; }
   .banner { font-size: 5rem; }
   .banner span { font-size: 7rem; }
@@ -968,7 +967,7 @@ hr.short.center {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
-  .logo { min-height: 10vh; width: 178px; }
+  .logo { min-height: 10vh; }
   .banner { font-size: 3rem; }
   .banner span { font-size: 5rem; }
   span.purple { font-size: 3rem; }
@@ -1013,8 +1012,9 @@ hr.short.center {
   .xs-padded-lr { padding-left: 7%; padding-right: 7%; }
   .xs-padded-lr-5 { padding-left: 5%; padding-right: 5%; }
   .xs-padded-t-lg { padding-top: 10%; }
+  .xs-padded-t-xlg { padding-top: 20%; }
 
-  .logo { min-height: 7vh; width: 125px; }
+  .logo { min-height: 7vh; width: 150px; top: -20px; }
   .banner { font-size: 4rem; }
   .banner span { font-size: 5rem; }
   span.purple { font-size: 4rem; }
