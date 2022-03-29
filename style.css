@@ -928,7 +928,11 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .banner { font-size: 5rem; }
   .banner span { font-size: 7rem; }
   span.purple { font-size: 5rem; }
-  .bg-rainbow { background-size: 615px; background-position: 50% 53%; }
+  .bg-rainbow {
+    background-size: 615px;
+    background-position: 50% 53%;
+    background-attachment: scroll;
+  }
 
   .ctr h2 { font-size: 2rem; }
   .ctr span { font-size: 4rem; }
@@ -1031,7 +1035,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   span.purple { font-size: 3.5rem; }
   .bg-rainbow {
     background-size: 359px;
-    background-position: 50% 70%;
+    background-position: 50% 15%;
     box-shadow: 1px 1px 10px 10px #fff inset;
   }
 
