@@ -903,6 +903,15 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   vertical-align: top;
 }
 
+/* ------- SEMI MD Media Query (1275px) --------------- */ 
+@media(max-width:1275px) {
+
+  .bg-rainbow {
+    background-position: center;
+    background-attachment: scroll;
+  }
+
+}
 
 /* ------- MD Media Query (64em / 1024px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
@@ -928,11 +937,6 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .banner { font-size: 5rem; }
   .banner span { font-size: 7rem; }
   span.purple { font-size: 5rem; }
-  .bg-rainbow {
-    background-size: 615px;
-    background-position: 50% 53%;
-    background-attachment: scroll;
-  }
 
   .ctr h2 { font-size: 2rem; }
   .ctr span { font-size: 4rem; }
