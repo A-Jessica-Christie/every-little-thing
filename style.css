@@ -984,7 +984,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .banner { font-size: 3rem; }
   .banner span { font-size: 5rem; }
   span.purple { font-size: 3rem; }
-  .bg-rainbow { background-size: 400px; background-position: 50% 25%; }
+  .bg-rainbow { background-size: 400px; background-position: 50% 55%; }
 
   .tilde { height: 45px; }
   .bg-stories { background-attachment: fixed; }
@@ -1035,7 +1035,6 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   span.purple { font-size: 3.5rem; }
   .bg-rainbow {
     background-size: 359px;
-    background-position: 50% 15%;
     box-shadow: 1px 1px 10px 10px #fff inset;
   }
 
