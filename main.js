@@ -26,4 +26,37 @@ $(document).ready(function(){
         $('.dm-style').toggleClass('dark-mode-active');
         $(this).toggleClass('dark-mode-active');  
       });
+
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        speed: 1000,
+        asNavFor: '.slider-nav'
+    });
+      
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        infinite: true,
+        accessibility: true,
+        asNavFor: '.slider-for',
+        dots: true,
+        centerMode: true,
+        focusOnSelect: true,
+        responsive: [
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              fade: true,
+              speed: 750
+            }
+          }
+        ]
+    });
+
 });
