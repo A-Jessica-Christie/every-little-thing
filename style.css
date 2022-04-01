@@ -55,7 +55,9 @@ img { max-width: 100%; height: auto; }
 .padded-l-lg { padding-left: 10%; }
 .padded-r-lg { padding-right: 10%; }
 .padded-t-7  { padding-top: 7%; }
+
 .padded-t-xlg { padding-top: 15%; }
+.padded-b-xlg { padding-bottom: 15%; }
 
 .padded-tb  { padding-top: 5%; padding-bottom: 5%; }
 .padded-lr  { padding-left: 5%; padding-right: 5%; }
@@ -667,10 +669,47 @@ img:hover.mailbox { animation: none; }
 }
 
 svg.mask.bottom { top: 0; }
+.svg-container.transform { transform: rotate(180deg); }
+
+/* Main Menu */
+.main-menu { min-height: 50vh; }
+
+div .border {
+  border: 2px solid black;
+  max-height: 15vh;
+  border-radius: 15px;
+  min-height: 30vh;
+}
+
+.main-menu a {
+  border-bottom: 2px solid black;
+  font-size: 2rem;
+  padding: 5%;
+  min-height: 25vh;
+  padding-top: 33%;
+}
+
+.main-menu p {
+  max-height: 5vh;
+}
+
+div .border.dark-content a {
+  padding-top: 22%;
+}
+
+.black-content {
+  background-color: black;
+  color: white;
+}
 
 .dark-content {
-  color: white;
   background-color: #087ec2;
+  color: black;
+}
+
+.light-content {
+  background-color: white;
+  color: black
 }
 
 /* Slider */
@@ -758,6 +797,55 @@ svg.mask.bottom { top: 0; }
    	width: 20px;
 }
 
+/* Footer */
+.linear { background: linear-gradient(315deg, rgba(0,0,0,1) 10%, rgba(8,126,194,1) 59%, rgba(255,255,255,1) 100%); }
+.custom-shape-divider-top-1648806667 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1648806667 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1648806667 .shape-fill { fill: #FFFFFF; }
+.custom-shape-divider-bottom-1648806739 .shape-fill { fill: #FFFFFF; }
+
+.custom-shape-divider-bottom-1648806739 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1648806739 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.linear h3 {
+  font-family: 'Mulish';
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.linear nav { text-align: left; }
+.linear h2 { font-size: 2.5rem; }
+.linear .subtle { padding-top: 5%; opacity: 0.8; }
 
 /* .abs {
   position: absolute;

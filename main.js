@@ -53,7 +53,8 @@ $(document).ready(function(){
               slidesToShow: 1,
               slidesToScroll: 1,
               fade: true,
-              speed: 750
+              speed: 750,
+              width: 576
             }
           }
         ]

@@ -45,13 +45,46 @@ seo:
 
 <!-- Content -->
 <section>
-    <div class="padded center dark-content">
+    <div class="main-menu">
+        <nav class="center grid-middle-center padded">
+            <div class="col-2 border grid">
+                <a class="col-12" href="#"> Website <br> Design </a>
+                <p class="col-12 padded"> All About Design </p>
+            </div>
+            <div class="col-1"> </div>
+            <div class="col-3 border dark-content grid">
+                <a href="#" class="col-12"> Website <br> Development </a>
+                <p class="col-12 padded"> All About Development </p>
+            </div>
+            <div class="col-1"> </div>
+            <div class="col-2 border grid">
+                <a href="#" class="col-12"> Website <br> Care </a>
+                <p class="col-12 padded"> All About Care </p>
+            </div>
+        </nav>
+    </div>
+
+    <div class="svg-container transform">
+        <svg class="mask transform bottom svg-black" enable-background="new 0 0 1200 100" viewBox="0 0 1200 500" xml:space="preserve">
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="35%" style="stop-color:rgb(0,0,0); stop-opacity:1"></stop>
+                    <stop offset="100%" style="stop-color:#087ec2; stop-opacity:1"></stop>
+                </linearGradient>
+            </defs>
+            <polygon class="bottom" points="0,0 600,90 1200,0" fill="url(#grad1)"></polygon>
+        </svg>
+    </div>
+
+    <div class="padded center black-content">
         <p> I am a Website Developer.
             I build a custom-made and personalized website by request for each company and business.
         </p>
     </div>
+</section>
 
     <!-- Slider -->
+<section class="padded-b-xlg padded-lg">
     <div class="slider-container slider-for">
         <div class="slider-items">
             <div class="bg-img white-rose landscape"> </div>
@@ -97,8 +130,10 @@ seo:
             <p class="caption"> Blue Rose </p>
         </div>
     </div>
+</section>
 
     <!-- Gallery? -->
+<section class="black-content">
     <div class="padded grid-middle">
         <div class="padded-lg col-6 center light-content">
             <p> This is my content </p>
@@ -121,6 +156,37 @@ seo:
      </div>
 </section>
 
+<div class="empty"> </div>
 
 <!-- Footer -->
-{% include site-footer.html %}
+<footer class="center padded tall-50 relative linear text-light">
+    <div class="custom-shape-divider-top-1648806667">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <div class="grid">
+        <div class="col-1"></div>
+        <nav class="padded padded-l-0 padded-b-0 col-5_md-12-bottom md-padded-r-0" id="social">
+            <h3> Find me <br> on Social Media </h3>
+            <a href="https://www.instagram.com/shadesofjess/" target="_blank"> <i class="fa-brands fa-instagram"></i> </a>
+            <a href="https://www.facebook.com/chiichobits/" target="_blank"> <i class="fa-brands fa-facebook-f"></i> </a>
+            <a href="https://line.me/ti/p/cBmccneG72" target="_blank"> <i class="fa-brands fa-line"></i> </a>
+            <a href="https://twitter.com/jc_chii" target="_blank"> <i class="fa-brands fa-twitter"></i> </a>
+        </nav>
+        <div class="padded padded-r-0 padded-b-0 col-5_md-12-bottom md-padded-l-0">
+            <h2> Website by : </h2>
+            <a href="/index.html" class="footer-logo"> Jessica Christie </a>
+        </div>
+        <div class="col-12-bottom md-padded-t center"> 
+            <p class="subtle"> Copyright 2021 </p>
+        </div>
+    </div>
+
+    <div class="custom-shape-divider-bottom-1648806739">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+  </footer>
