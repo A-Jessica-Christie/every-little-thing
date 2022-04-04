@@ -20,7 +20,7 @@ _comments:
 ---
 She is a hopeless romantic who would rather watch a horror flick instead of cheesy sappy romance movies.
 
-She is a hopelss romantic who finds the time to read Dracula but too lazy to read Shakespeare's.
+She is a hopeless romantic who finds the time to read Dracula but too lazy to read Shakespeare's.
 
 She is a hopeless romantic who is afraid of believing too much in true love.
 

@@ -52,17 +52,17 @@ You teach me to destroy myself
 
 You make me think that God has abandoned me
 
-You make e feel llike I'm living in hell
+You make me feel like I'm living in hell
 
-You make me loose my passion
+You make me lose my passion
 
 You make me the bitterest person I ever knew
 
 You make me crave my me time all the time
 
-You make me loose my faith in people
+You make me lose my faith in people
 
-You make me loose my willingness to go on
+You make me looe my willingness to go on
 
 You make me become the person I despised the most
 
@@ -70,7 +70,7 @@ You make me so pathetic
 
 You make me hate myself
 
-You make me loose myself
+You make me lose myself
 
 You make me sick of living
 

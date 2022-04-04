@@ -36,7 +36,7 @@ Smile, because they're finally in peace.
 
 &nbsp;
 
-Deep condolences to you if you lost someone.
+Deep condolences to all of you who have lost someone.
 
 Stay strong.
 

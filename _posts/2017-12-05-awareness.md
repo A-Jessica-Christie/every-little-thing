@@ -14,7 +14,7 @@ seo:
     keywords: 
     hide-from-google: false
 ---
-We have no idea how much our actions or our words can affect someone's life...
+We have no idea how much our actions and our words can affect someone's life...
 
 In fact, most people don't even know that they have the power to do so. Some just couldn't care less, and some really don't have a clue about it.
 
@@ -22,7 +22,7 @@ Maybe you think you're nothing, or that no one cares about you. Maybe you think 
 
 It's not the end of the world.
 
-We can't control everything that is happening in our life. We could only control our feelings and reactions towards it. And yeah I know it's hard to accept it, even harder when there's no one there for you to make this life a little bearable.
+We can't control everything that is happening in our life. We can only control our feelings and reactions toward it. And yeah I know it's hard to accept it, even harder when there's no one there for you to make this life a little bearable.
 
 When you remember this - and always remember this - you'll become more aware of the pain and struggles of others. If you want someone to always be there for you, if you want someone to have your back, if you want someone to accept you for who you are, you gotta be that "someone" first.
 
