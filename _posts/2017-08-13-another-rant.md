@@ -5,7 +5,7 @@ description: Just skip this
 author: Jessica Christie
 featured: false
 categories: 2cents
-featured_image: /images/past.jpg
+featured_image: /images/rant.png
 seo:
     title: Another Rant
     description: Just skip this

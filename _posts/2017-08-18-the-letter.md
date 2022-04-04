@@ -5,7 +5,7 @@ description: ...a letter
 author: Jessica Christie
 featured: false
 categories: 2cents
-featured_image: /images/the-poem.jpg
+featured_image: /images/siblings.jpg
 seo:
     title: To my brother and sister
     description: ...a letter

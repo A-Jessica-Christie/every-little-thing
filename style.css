@@ -640,6 +640,12 @@ img:hover.mailbox { animation: none; }
   scroll-behavior: smooth;
 }
 
+.more {
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 /* ------------------------------------------ WEBSITE ------------------------------------------ */
 .bg-main {
   background-image: url("images/blue-mt.jpg");

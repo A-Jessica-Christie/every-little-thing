@@ -5,7 +5,7 @@ description:
 author: Jessica Christie
 featured: false
 categories: 2cents
-featured_image: /images/maturity.jpg
+featured_image: /images/awareness.jpg
 seo: 
     title: Awareness
     description: 

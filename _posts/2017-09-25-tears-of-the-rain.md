@@ -5,7 +5,7 @@ description:
 author: Jessica Christie
 featured: false
 categories: poems
-featured_image: /images/untitled.jpg
+featured_image: /images/tears.jpg
 seo:
   title: Tears of the Rain
   description: 

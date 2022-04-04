@@ -5,10 +5,10 @@ description: It's not for you
 author: Jessica Christie
 featured: false
 categories: 2cents
-featured_image: /images/past.jpg
+featured_image: /images/stop.jpg
 seo:
-    title: 
-    description:
+    title: Do Not Read
+    description: It's not for you
     social_image:
     url: https://pretty-rose.cloudvent.net/posts/2017/the-past
     keywords:

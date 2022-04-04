@@ -5,7 +5,7 @@ description: Not.
 author: Jessica Christie
 featured: false
 categories: poems
-featured_image: /images/untitled.jpg
+featured_image: /images/no-thanks.jpg
 seo:
   title: Thank You
   description: Not.

@@ -5,7 +5,7 @@ description: Is she?
 author: Jessica Christie
 featured: false
 categories: poems
-featured_image: /images/untitled.jpg
+featured_image: /images/hopeless.jpg
 seo:
   title: Hopeless Romantic
   description: Is she?

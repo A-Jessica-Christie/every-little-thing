@@ -5,7 +5,7 @@ description: an intro..?
 author: Jessica Christie
 featured: true
 categories: stories
-featured_image: /images/monster.svg
+featured_image: /images/fire-ice.jpg
 seo:
     title: Fire to Your Ice
     description: an intro..?
