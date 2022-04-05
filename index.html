@@ -31,39 +31,34 @@ seo:
     </div>
 </section>
 
-<!------------------------ Featured blog loop ------------------------>
+<!------------------------ Featured blog ------------------------>
 <section class="padded padded-t-lg md-padded-t-xlg sm-padded-t-xlg">
-
     <div class="capped-width padded mint">
+        <div class="padded-05 center margin-b-1">
+            <h2 data-aos="flip-down"> Featured Posts </h2>
+            <p> </p>
+        </div>
 
-    <div class="padded-05 center margin-b-1">
-        <h2 data-aos="flip-down"> Featured Posts </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quaerat necessitatibus? Praesentium fugit ex neque magni, possimus, iste itaque voluptatem id doloremque voluptas consequatur dolor cumque! Dolores possimus laboriosam adipisci.</p>
-    </div>
-
-        {% assign featured_posts = site.posts | where: 'featured', true %}
-
-        {% for post in featured_posts limit:2 %}
-
-            <div class="grid padded">
-                <div class="col-6_xs-12 bg-image padded" style="background-image:url( '{{ post.featured_image }}' ); box-shadow: -20px -20px 15px 3px var(--dark); min-height: 30vh;"></div>
-                <div class="col-6_xs-12 padded xs-text-center">
-                    
-                    {% for item in post.categories %}
-                        <span class="tag"> {{item}} </span>
-                    {% endfor %}
-
-                    <h2 class="margin-t-1"> {{ post.title }} </h2>
-                    <p> {{ post.description }} </p>
-                    <a href="{{ post.url }}" class="subtle-button"> Read More </a>
-
-                </div>
+        <div class="grid padded">
+            <div class="col-6_xs-12 bg-image padded" style="background-image:url('/images/dark-tunnel.jpg'); box-shadow: -20px -20px 15px 3px var(--dark); min-height: 30vh;"> </div>
+            <div class="col-6_xs-12 padded xs-text-center">
+                <span class="tag"> Poems </span>
+                <h2 class="margin-t-1"> Light </h2>
+                <p> </p>
+                <a href="https://pretty-rose.cloudvent.net/posts/2019/light" class="subtle-button"> Read More </a>
             </div>
+        </div>
 
-        {% endfor %}
-
+        <div class="grid padded flex-flip-xs">
+            <div class="col-6_xs-12 padded xs-padded-t-lg right xs-text-center">
+                <span class="tag"> Poems </span>
+                <h2 class="margin-t-1"> Mourn </h2>
+                <p> Give me some time... </p>
+                <a href="https://pretty-rose.cloudvent.net/posts/2017/mourn" class="subtle-button"> Read More </a>
+            </div>
+            <div class="col-6_xs-12 bg-image padded" style="background-image:url('/images/mourn.jpg'); box-shadow: 20px 20px 15px 3px var(--dark); min-height: 30vh;"> </div>
+        </div>
     </div>
-
 </section>
 
 <!---------------- Call to READ / Little Note ---------------->
@@ -89,7 +84,7 @@ seo:
     <!-- Envelope -->
     <div class="mailbox-menu grid-center">
         <div class="col-3"> </div>
-        <a href="/blog" class="col-6-middle center">
+        <a href="/blog-archive.html" class="col-6-middle center">
             <img src="/images/blue-envelope.png">
             <img src="/images/blue-letter.png">
         </a>
