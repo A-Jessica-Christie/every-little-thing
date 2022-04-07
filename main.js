@@ -1,11 +1,11 @@
-$('.hamburger-button').click(function(){
-  $('.mobile-menu').fadeToggle(100);
-  $(this).toggleClass('active');
-});
-
 AOS.init({
   duration: 1000, // values from 0 to 3000, with step 50ms
   once: false // whether animation should happen only once - while scrolling down
+});
+
+$('.hamburger-button').click(function(){
+  $('.mobile-menu').fadeToggle(100);
+  $(this).toggleClass('active');
 });
 
 $('.sidebar-button').click(function(){
@@ -59,10 +59,25 @@ $(document).ready(function(){
           slidesToScroll: 1,
           fade: true,
           speed: 750,
-          width: 576
+          arrows: true,
+          infinite: true,
+          accessibility: true
         }
       }
     ]
+  });
+
+  // Hide Content
+  $('.caption-content').each(function() {
+    $(this).hide();
+  });
+  
+  // Show & Hide Content with Hover
+  $('.portfolio-item').mouseenter(function(){
+    $('.caption-content').show("slow");
+  });
+  $('.portfolio-item').mouseleave(function(){
+    $('.caption-content').hide("slow");
   });
 
 });

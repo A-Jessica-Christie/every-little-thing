@@ -14,7 +14,7 @@ seo:
     keywords:
     hide-from-google: false
 ---
-#### So sick of this world...
+##### So sick of this world...
 
 So sad that most people don't care about the process. They only care about the end result. And if the end result isn't as they hope it would be, they'd think that it's bad, that's it's not worth it - an abomination.
 

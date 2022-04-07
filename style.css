@@ -811,10 +811,29 @@ div .border.dark-content-small a { padding-top: 22%; }
   background-size: cover;
 }
 
-.blue-rose {
-  background-image: url('https://source.unsplash.com/nvm0MQU6iEU');
-  background-position: center;
-  background-size: cover;
+.project { border: 3px solid teal; }
+.project-tb { border: 1px solid teal; }
+
+.portfolio-item img {
+  -webkit-clip-path: inset(-1px);
+  clip-path: inset(-1px);
+}
+
+.portfolio-item:hover img {
+  -webkit-clip-path: inset(2rem);
+  clip-path: inset(2rem);
+  transition: all 1s;
+}
+
+.caption-content {
+  padding: 17%;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: teal;
+  opacity: 0.9;
+  z-index: 7;
 }
 
 .slider-container {
@@ -1023,7 +1042,7 @@ div .border.dark-content-small a { padding-top: 22%; }
 .quote-icon {
   font-size: 5.5rem;
   display: inline-block;
-  color: var(--dark);
+  color: inherit;
   line-height: 1;
   opacity: 0.5;
 }
@@ -1344,6 +1363,8 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .footer-logo { font-size: 3rem; }
   footer nav a { font-size: 1.3rem; }
 
+  .project { border: 2px solid teal; }
+  .caption-content { padding: 10%; }
   .sidebar-logo { padding-top: 5%; padding-left: 0; }
   .sidebar-menu {
     left: 0;
