@@ -11,45 +11,51 @@ seo:
 ---
 
 <!------------------------ Image Banner  ------------------------>
-<header class="padded-t-7 bg-ice-cream grid-middle-center tall-100 sm-tall-60 xs-tall-70 padded-b-lg md-padded-t-lg xs-padded-t-xlg relative">
+<header class="padded-t-7 grid-middle-center bg-main tall-100 sm-tall-55 xs-tall-70 padded-b-lg md-padded-t-lg xs-padded-t-xlg relative">
     <div id="particles-js">
         <div class="col-6_xs-11">
             <img id="particles-js" src="/images/logo-jc-white.svg" class="main-banner" data-aos="zoom-in">
         </div>
     </div>
     
-    <div class="hamburger-button ice-cream col-7 right show-sm">
+    <div class="hamburger-button website col-7 right show-sm">
         <i class="fa-solid fa-bars"></i>
         <i class="fa-solid fa-xmark"></i>
     </div>
-
-    <div class="custom-shape-divider-bottom-1649417950">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-        </svg>
-    </div>
 </header>
     
-<div class="mobile-menu ice-cream">
+<div class="mobile-menu website">
     <nav> 
         <a href="/blog"> Blog </a>
         <a href="/blog-archive"> Archives </a>
         <a href="/index.html"> Home </a>
         <a href="/website.html"> Website </a>
     </nav>
-    <img src="/images/logo-jc.svg" style="padding-left: 1rem;">
+    <img src="/images/logo-jc-white.svg" style="padding-left: 1rem;">
+</div>
+
+<div class="svg-container">
+    <svg class="mask bottom svg-black" enable-background="new 0 0 1200 100" viewBox="0 0 1200 500" xml:space="preserve">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="35%" style="stop-color:rgb(0,0,0); stop-opacity:1"></stop>
+                <stop offset="100%" style="stop-color:#087ec2; stop-opacity:1"></stop>
+            </linearGradient>
+        </defs>
+        <polygon class="bottom" points="0,0 600,90 1200,0" fill="url(#grad1)"></polygon>
+    </svg>
 </div>
 
 <!-- Content -->
 <section>
-    <div class="main-menu hide-sm ice-cream cone">
+    <div class="main-menu hide-sm">
         <nav class="center grid-middle-center padded">
             <div class="col-2_md-3 border grid">
                 <a class="col-12" href="#"> Website <br> Design </a>
                 <p class="col-12-middle padded"> All About Design </p>
             </div>
             <div class="col-1"> </div>
-            <div class="col-3_md-4 border dark-choco grid">
+            <div class="col-3_md-4 border dark-content grid">
                 <a href="#" class="col-12"> Website <br> Development </a>
                 <p class="col-12-middle padded"> All About Development </p>
             </div>
@@ -61,7 +67,7 @@ seo:
         </nav>
     </div>
 
-    <div class="main-menu-small show-sm ice-cream-small cone">
+    <div class="main-menu-small show-sm">
         <nav class="center grid-middle-center padded">
             <div class="col-3_xs-2"> </div>
             <div class="col-6_xs-8 border grid">
@@ -71,7 +77,7 @@ seo:
             <div class="col-3_xs-2"> </div>
             <div class="col-12 padded"> </div>
             <div class="col-3_xs-2"> </div>
-            <div class="col-6_xs-8 border dark-choco-small grid">
+            <div class="col-6_xs-8 border dark-content-small grid">
                 <a href="#" class="col-12 padded-t-xxlg"> Website <br> Development </a>
                 <p class="col-12-middle padded"> All About Development </p>
             </div>
@@ -86,15 +92,36 @@ seo:
         </nav>
     </div>
 
-    <div class="padded center dark-choco">
+    <div class="svg-container transform">
+        <svg class="mask transform bottom svg-black" enable-background="new 0 0 1200 100" viewBox="0 0 1200 500" xml:space="preserve">
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="35%" style="stop-color:rgb(0,0,0); stop-opacity:1"></stop>
+                    <stop offset="100%" style="stop-color:#087ec2; stop-opacity:1"></stop>
+                </linearGradient>
+            </defs>
+            <polygon class="bottom" points="0,0 600,90 1200,0" fill="url(#grad1)"></polygon>
+        </svg>
+    </div>
+
+    <div class="padded center black-content">
         <p> I am a Website Developer.
             I build a custom-made and personalized website by request for each company and business.
         </p>
     </div>
 </section>
 
-<!-- Slider -->
-<section class="padded-lg cone">
+<!-- Small Arrow -->
+<div class="empty relative hide-xs">
+    <div class="custom-shape-divider-bottom-1649097807">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+</div>
+
+    <!-- Slider -->
+<section class="padded-lg">
     <div class="slider-container slider-for">
         <div class="slider-items">
             <div class="bg-img white-rose landscape"> </div>
@@ -153,42 +180,51 @@ seo:
     </div>
 </section>
 
+<!-- Small Arrow -->
+<div class="empty relative hide-xs">
+    <div class="custom-shape-divider-top-1649097652">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+</div>
 
-<!-- Gallery? -->
-<section class="cone">
+    <!-- Gallery? -->
+<section class="black-content">
     <div class="padded grid-middle">
-        <div class="padded-lg col-6_xs-12 center white-choco">
+        <div class="padded-lg col-6_xs-12 center light-content">
             <p> This is my content </p>
         </div>
-        <div class="padded-lg col-6_xs-12 center dark-choco">
+        <div class="padded-lg col-6_xs-12 center dark-content">
             <p> This is my icon/image </p>
         </div>
-        <div class="padded-lg col-6_xs-12 center dark-choco">
+        <div class="padded-lg col-6_xs-12 center dark-content">
             <p> This is my icon/image </p>
         </div>
-        <div class="padded-lg col-6_xs-12 center white-choco">
+        <div class="padded-lg col-6_xs-12 center light-content">
             <p> This is my content </p>
         </div>
-        <div class="padded-lg col-6_xs-12 center white-choco">
+        <div class="padded-lg col-6_xs-12 center light-content">
             <p> This is my content </p>
         </div>
-        <div class="padded-lg col-6_xs-12 center dark-choco">
+        <div class="padded-lg col-6_xs-12 center dark-content">
             <p> This is my icon/image </p>
         </div>
      </div>
 </section>
 
-<div class="empty cone"> </div>
+<div class="empty"> </div>
 
 <!-- Footer -->
-<footer class="center padded padded-b-0 relative dark-choco">
-    <div class="custom-shape-divider-top-1649447239">
+<footer class="center padded padded-b-0 relative linear text-light">
+    <div class="custom-shape-divider-top-1648806667">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+            <!-- <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path> -->
         </svg>
     </div>
 
-    <div class="grid tall-50 sm-tall-55">
+    <div class="grid tall-30">
         <div class="col-1"></div>
         <nav class="padded padded-l-0 padded-b-0 col-5_md-12-bottom md-padded-r-0" id="social">
             <h3> Find me <br> on Social Media </h3>
@@ -205,4 +241,10 @@ seo:
             <p class="subtle"> Copyright 2021 </p>
         </div>
     </div>
-</footer>
+
+    <div class="custom-shape-divider-bottom-1648806739">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+  </footer>
