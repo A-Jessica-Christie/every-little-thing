@@ -84,8 +84,7 @@ particlesJS("particles-js",
       "repulse":{
         "distance":200,
         "duration":0.3
-      },
+      }
     }
-  },
-    "retina_detect":true
+  }
 });
