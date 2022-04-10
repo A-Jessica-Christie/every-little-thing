@@ -78,10 +78,10 @@ $(document).ready(function(){
   });
   
   // Show & Hide Content with Hover
-  $('.portfolio-item').mouseenter(function(){
+  $('.project-item').mouseenter(function(){
     $('.caption-content').show("slow");
   });
-  $('.portfolio-item').mouseleave(function(){
+  $('.project-item').mouseleave(function(){
     $('.caption-content').hide("slow");
   });
 
