@@ -21,3 +21,8 @@ design:
   v-light_color: '#ddfdfe'
   featured_color: '#e7c7ef'
   accent_color: '#e8e8ff'
+  cone_color: '#ffcb85'
+  choco_color: '#6b3e26'
+  berry_color: '#ffc5d9'
+  mint_color: '#c2f2d0'
+  vanilla_color: '#fdf5c9'
