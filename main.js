@@ -3,11 +3,6 @@
 //   console.log('callback - particles.js config loaded');
 // });
 
-AOS.init({
-  duration: 1000, // values from 0 to 3000, with step 50ms
-  once: false // whether animation should happen only once - while scrolling down
-});
-
 $('.hamburger-button').click(function(){
   $('.mobile-menu').fadeToggle(100);
   $(this).toggleClass('active');
@@ -19,6 +14,11 @@ $('.sidebar-button').click(function(){
 });
 
 $(document).ready(function(){
+  AOS.init({
+    duration: 1000, // values from 0 to 3000, with step 50ms
+    once: false // whether animation should happen only once - while scrolling down
+  });
+  
   $('.mailbox').click(function(){
     $('.mailbox-menu').fadeToggle(100);
     $(this).toggleClass('active');
