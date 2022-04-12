@@ -22,6 +22,13 @@ seo:
     <div class="box-1 show-xs"> </div>
     <img src="/images/ice-cream-flip.svg" class="ice-cream-1 show-xs" data-aos="ice-cream-1">
     
+    <div class="rose hide-sm">
+        <a href="/index.html">
+            <img src="/icons/favicon.ico">
+            <img src="/icons/favicon.ico">
+        </a>
+    </div>
+    
     <div class="hamburger-button ice-cream col-7 right show-sm">
         <i class="fa-solid fa-bars"></i>
         <i class="fa-solid fa-xmark"></i>
@@ -193,15 +200,31 @@ seo:
         <div class="padded-lg col-6_xs-12 center white-choco">
             <p> This is my content </p>
         </div>
-        <div class="flex-flip-xs grid col-12">
-            <div class="padded-lg col-6_xs-12 center white-choco">
-                <p> This is my content </p>
+     </div>
+</section>
+
+<div class="empty cone"> </div>
+
+<section class="cone grid-center">
+    <div class="col-5_md-7_sm-9_xs-11 padded-lr">
+        <h2 class="connect">Let's Connect &#9752;</h2> 
+        <form action="#submission-received">            
+            <input name="_name" placeholder="Your name" required type="text">
+            <input name="_replyto" placeholder="Your email" required type="email">
+            <textarea name="message" placeholder="Describe your inquiry here..." required rows="5"></textarea>
+            <button type="submit" onsubmit="validateForm()" class="submit"> SEND </button>
+        </form>
+        <div class="hide-temp padded-t" role="alert" id="submission-received">
+            <div class="alert alert-success ice-cream center">
+                <div id="particles-js"> </div>
+                <p> Thank you for sending your inquiry. <br> I will be in touch soon! </p>
+                <div class="button confirm"> OK </div>
             </div>
-            <div class="padded-lg col-6_xs-12 center dark-choco">
-                <p> This is my icon/image </p>
+            <div class="relative">
+                <img src="/images/ice-cream.svg" class="ice-cream-3" data-aos="ice-cream-3">
             </div>
         </div>
-     </div>
+    </div>
 </section>
 
 <div class="empty cone"> </div>

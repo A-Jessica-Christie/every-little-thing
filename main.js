@@ -85,4 +85,13 @@ $(document).ready(function(){
     $('.caption-content').hide("slow");
   });
 
+  // Contact Form
+  if (window.location.href.indexOf("submission-received") > -1) {
+    $('#submission-received').show();
+  }
+
+  $('.confirm').click(function(){
+    $('#submission-received').hide();
+  });
+
 });
