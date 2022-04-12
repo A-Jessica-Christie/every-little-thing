@@ -723,7 +723,7 @@ img:hover.mailbox { animation: none; }
 }
 
 .att-title { position: absolute; top: 198px; }
-ul { padding-left: 35%; list-style-type: square; }
+ul { padding-left: 35%; list-style-type: square; padding-right: 10%; }
 li { font-size: 0.85rem; line-height: 1.3; }
 
 
@@ -1817,6 +1817,8 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
 
   .wave.ice-cream { bottom: -95px; }
   .wave.ice-cream img { padding: 25%; padding-top: 20%; }
+  .heart { padding-top: 10%; }
+  .att-title { top: 150px; }
 
 }
 
