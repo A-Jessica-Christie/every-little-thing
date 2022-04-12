@@ -422,7 +422,17 @@ polygon { stroke-width: 2px; }
   color: var(--dark);
 }
 
-.hamburger-button.website { color: white; }
+.hamburger-button.website {
+  color: white;
+  text-shadow: 0 0 2.7px rgb(0 0 0 / 21%),
+               0 0 6.3px rgb(0 0 0 / 30%),
+               0 0 11.3px rgb(0 0 0 / 37%),
+               0 0 18.8px rgb(0 0 0 / 43%),
+               0 0 31px rgb(0 0 0 / 50%),
+               0 0 54.1px rgb(0 0 0 / 59%),
+               0 0 117px rgb(0 0 0 / 80%);
+}
+
 .hamburger-button .fa-xmark { display: none; }
 .hamburger-button:hover {
   color: var(--featured);
@@ -559,13 +569,15 @@ input:focus, textarea:focus { border: 1.5px solid #6b3e26; outline: 0; }
 /* Website Pro */
 .pro form input, .pro form textarea {
   background: white;
-  color: black;
+  color: #092371;
   font-family: inherit;
+  border: 1.5px solid #087ec2;
 }
 
 .pro .connect { color: white; font-family: 'Martel', serif; }
 .pro .alert-success { color: white; background: transparent; }
 .pro .confirm { background-color: white; color: #092371; animation: fadeIn 0.5s infinite alternate; }
+.pro input:focus, textarea:focus { border: 1.5px solid #092371; outline: 0; }
 .pro form button {
   font-family: inherit;
   color: white;
@@ -1252,12 +1264,11 @@ footer.linear a:hover {
   transform: rotateY(180deg);
 }
 
-.ice-cream .caption-content { color: #ffc5d9; background-color: #6b3e26; }
-.bg-ice-cream { background: linear-gradient(13deg, rgba(255,197,217,1) 25%, rgba(194,242,208,1) 70%, rgba(253,245,201,1) 100%); }
 .custom-shape-divider-bottom-1649417950 .shape-fill { fill: #ffcb85; }
 .custom-shape-divider-top-1649447239 .shape-fill { fill: #ffcb85; }
+.ice-cream .caption-content { color: #ffc5d9; background-color: #6b3e26; }
+.bg-ice-cream { background: linear-gradient(13deg, rgba(255,197,217,1) 25%, rgba(194,242,208,1) 70%, rgba(253,245,201,1) 100%); }
 
-.hamburger-button.ice-cream { color: #6b3e26; }
 .ice-cream, .ice-cream p { font-family: Georgia; }
 .mobile-menu.ice-cream {
   background-color: #fdf5c9;
@@ -1266,6 +1277,17 @@ footer.linear a:hover {
   padding-top: 10%;
   padding-left: 10%;
   padding-right: 0;
+}
+
+.hamburger-button.ice-cream {
+  color:#6b3e26;
+  text-shadow: 0 0 2.7px rgb(194 242 208 / 21%),
+               0 0 6.3px rgb(194 242 208 / 30%),
+               0 0 11.3px rgb(194 242 208 / 37%),
+               0 0 18.8px rgb(194 242 208 / 43%),
+               0 0 31px rgb(194 242 208 / 50%),
+               0 0 54.1px rgb(194 242 208 / 59%),
+               0 0 117px rgb(194 242 208 / 80%);
 }
 
 .mobile-menu.ice-cream p {
@@ -1920,6 +1942,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .mobile-menu.ice-cream { padding-top: 15%;}
   .wave.ice-cream { bottom: -20px; }
   .wave.ice-cream img { padding-top: 17%; }
+  .connect { font-size: 2.3rem; }
 
   .custom-shape-divider-top-1648806667 svg { height: 35px; }
   .custom-shape-divider-bottom-1648806739 svg { height: 50px; }
@@ -1957,7 +1980,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   div .border.dark-choco a { padding-top: 5%; }
   #particles-js { top: -25px; }
   .dark-choco nav { padding: 11.5%; padding-bottom: 0; }
-  .heart { padding-top: 10%; }
-  .att-title { top: 170px; }
+  .heart, ul { padding-top: 20%; }
+  .att-title { top: 110px; }
 
 }
