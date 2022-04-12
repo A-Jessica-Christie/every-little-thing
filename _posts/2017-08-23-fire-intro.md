@@ -1,13 +1,13 @@
 ---
 layout: stories-layout
-title: Fire to Your Ice
+title: FIRE to Your ICE
 description: an intro..?
 author: Jessica Christie
 featured: true
 categories: stories
 featured_image: /images/fire-ice.jpg
 seo:
-    title: Fire to Your Ice
+    title: FIRE to Your ICE
     description: an intro..?
     social_image:
     url: https://pretty-rose.cloudvent.net/posts/2017/monster

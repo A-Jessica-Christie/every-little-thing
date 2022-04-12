@@ -712,6 +712,22 @@ img:hover.mailbox { animation: none; }
   font-weight: bold;
 }
 
+
+
+/* ------------------------------------ Attributes ------------------------------------ */
+.heart {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.att-title { position: absolute; top: 198px; }
+ul { padding-left: 35%; list-style-type: square; }
+li { font-size: 0.85rem; line-height: 1.3; }
+
+
+
 /* ------------------------------------------ WEBSITE ------------------------------------------ */
 /* Particles */
 canvas {  display: block; }
@@ -1525,6 +1541,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .lp-padded-b-lg { padding-bottom: 10%; }
   .bg-rainbow { background-position: center; }
   .xmark { top: 8%; right: 20%;}
+  ul { padding-left: 30%; }
 
 }
 
@@ -1538,6 +1555,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .custom-shape-divider-top-1648806667 svg { height: 100px; }
   .lp-padded-lr-1 { padding-left: 1rem; padding-right: 1rem; }
   .lp-padded-b-0 { padding-bottom: 0; }
+  ul { padding-left: 30%; }
 
   .main-menu.ice-cream, .main-menu { min-height: 45vh; }
   .filling { padding-left: 15%; padding-right: 15%; }
@@ -1616,6 +1634,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .dark-choco h2 { font-size: 2rem; }
   .dark-choco nav { text-align: center; padding: 5%; }
   #particles-js { top: 0; }
+  ul { padding-left: 20%; }
 
 }
 
@@ -1688,6 +1707,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .ice-cream .custom-shape-divider-top-1649447239 svg { height: 70px; }
   .custom-shape-divider-bottom-1649097807 svg { height: 100px; }
   .custom-shape-divider-top-1649097652 svg { height: 100PX; }
+  ul { padding-left: 10%; }
 
 }
 
@@ -1816,5 +1836,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   div .border.dark-choco a { padding-top: 5%; }
   #particles-js { top: -25px; }
   .dark-choco nav { padding: 11.5%; padding-bottom: 0; }
+  .heart { padding-top: 10%; }
+  .att-title { top: 170px; }
 
 }

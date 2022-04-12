@@ -1,13 +1,13 @@
 ---
 layout: stories-layout
-title: Fire to your Ice
+title: FIRE to Your ICE
 description: the prologue.
 author: Jessica Christie
 featured: false
 categories: stories
 featured_image: /images/fire-ice.jpg
 seo:
-    title: Fire to your Ice
+    title: FIRE to Your ICE
     description: the prologue.
     social_image:
     url: https://pretty-rose.cloudvent.net/posts/2017/misery
