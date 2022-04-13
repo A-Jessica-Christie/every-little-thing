@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Blog Page 
+title: Homepage
 seo:
-  title:
+  title: Every Little Thing
   description:
   social_image:
   twitter_card:
@@ -10,65 +10,87 @@ seo:
   hide-from-google: false
 ---
 
-<!------------------------ Split blog loop (part 1) ------------------------>
-<section class="padded">
+<!------------------------ Image Banner  ------------------------>
 
-    <div class="capped-width grid-center">
+    {% include site-header.html %}
 
-    <div class="col-9 padded-05 center margin-b-1">
-        <h2> Latest Posts </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quaerat necessitatibus? Praesentium fugit ex neque magni, possimus, iste itaque voluptatem id doloremque voluptas consequatur dolor cumque! Dolores possimus laboriosam adipisci.</p>
+<!------------------------ Menu / Nav ------------------------>
+<section class="relative">
+    <div class="menu">
+        <h1 class="rotate"> navigation </h1>
+        <div class="bookmark">
+            <svg class="mask banner-tail" viewBox="0 0 57.53 28.58">
+                <polygon class="white" points="28.77 16 57.53 28.23 57.49 28.39 57.5 0 57.49 0.04 0 0 0.01 28.58 0 28.53 29 16 28.77 16"> </polygon>
+            </svg>
+        </div>
+        <nav class="padded center">
+            {% for link in site.archives %}
+                <a href="{{link.url}}"> {{ link.category }} </a>
+            {% endfor %}
+        </nav>
     </div>
-
-        {% for post in site.posts limit:3 %}
-
-            {% include post-loop-item-square.html %}
-
-        {% endfor %}
-
-    </div>
-
 </section>
 
-
-<!------------------------ CTA Banner  ------------------------>
-<section class="bg-featured text-light padded center capped-width"> 
-
-    <div class="capped-width-narrow">
-        <h2> A catchy heading </h2>
-        <p> This is a call-to-action to drive traffic somewhere important </p>
-        <a href="#" class="button"> Let's do this </a>
-    </div>
-
-</section> 
-
-
-<!------------------------ Split blog loop (part 2) ------------------------>
-<section class="padded">
-
-    <div class="capped-width grid-center">
-
-        {% for post in site.posts limit:12 offset:3 %}
-
-                {% include post-loop-item-square.html %}
-
-        {% endfor %}
-
-    </div>
-
-
-    <!-- This checks if there are more than 15 blog posts, and if there are shows a link to the full blog archive -->
-
-    {% assign post_count = site.posts | size %}
-    
-    {% if post_count > 15 %}
-        <div class="center padded">
-            <a class="button" href="/blog-archive"> See More </a>
+<!------------------------ Featured blog ------------------------>
+<section class="padded padded-t-lg md-padded-t-xlg sm-padded-t-xlg">
+    <div class="capped-width padded mint">
+        <div class="padded-05 center margin-b-1">
+            <h2 data-aos="flip-down"> Featured Posts </h2>
+            <p> </p>
         </div>
-       
-    {% endif %}
 
+        <div class="grid padded">
+            <div class="col-6_xs-12 bg-image padded" style="background-image:url('/images/dark-tunnel.jpg'); box-shadow: -20px -20px 15px 3px var(--dark); min-height: 35vh;"> </div>
+            <div class="col-6_xs-12 padded xs-text-center">
+                <span class="tag"> Poems </span>
+                <h2 class="margin-t-1"> Light </h2>
+                <p> </p>
+                <a href="https://pretty-rose.cloudvent.net/posts/2019/light" class="subtle-button"> Read More </a>
+            </div>
+        </div>
+
+        <div class="grid padded flex-flip-xs">
+            <div class="col-6_xs-12 padded xs-padded-t-lg right xs-text-center">
+                <span class="tag"> Poems </span>
+                <h2 class="margin-t-1"> Mourn </h2>
+                <p> Give me some time... </p>
+                <a href="https://pretty-rose.cloudvent.net/posts/2017/mourn" class="subtle-button"> Read More </a>
+            </div>
+            <div class="col-6_xs-12 bg-image padded" style="background-image:url('/images/mourn.jpg'); box-shadow: 20px 20px 15px 3px var(--dark); min-height: 35vh;"> </div>
+        </div>
+    </div>
+</section>
+
+<!---------------- Call to READ / Little Note ---------------->
+<section class="grid padded padded-t-lg md-padded-t-xlg sm-padded-t-xlg xs-padded-t-lg">
+    <div class="col-3-top right padded padded-r-1 padded-t-0 sm-padded-t xs-padded-t-lg xs-padded-l-0">
+        <img class="tilde" src="images/tilde-left.png">
+    </div>
+        <div class="ctr col-6-middle xs-padded-lr">
+            <h2 data-aos="fade-down"> a little <span> note </span> from me </h2>
+            <h3 class="arrow"> ↓ </h3>
+        </div>
+    <div class="col-3-top padded padded-l-1 padded-t-0 sm-padded-t xs-padded-t-lg xs-padded-r-0">
+        <img class="tilde" src="images/tilde-right.png">
+    </div>
+
+    <!-- Mailbox Icon -->
+    <div class="col-5_md-4_sm-3"> </div>
+    <div class="col-2_md-3_sm-4-middle mailbox-padding md-padded-r-1 md-padded-b sm-padded-l-3 xs-padded-b-0">
+        <img src="/images/mailbox.png" class="mailbox">
+    </div>
+    <div class="col-5"> </div>
+
+    <!-- Envelope -->
+    <div class="mailbox-menu">
+        <div class="xmark padded-lr-1">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <a href="/about.html" class="center" target="_blank">
+            <img src="/images/blue-envelope.png">
+            <img src="/images/blue-letter.png">
+        </a>
+    </div> 
 </section>
 
 {% include site-footer.html %}
-

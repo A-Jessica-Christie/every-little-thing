@@ -60,6 +60,7 @@ a { text-decoration: none; }
 .padded-t-xlg { padding-top: 15%; }
 .padded-b-xlg { padding-bottom: 15%; }
 .padded-tb-lg { padding-top: 10%; padding-bottom: 10%; }
+.padded-lr-lg { padding-left: 10%; padding-right: 10%; }
 
 .padded-tb  { padding-top: 5%; padding-bottom: 5%; }
 .padded-lr  { padding-left: 5%; padding-right: 5%; }
@@ -224,20 +225,13 @@ a {
 
 a:hover {
   color: var(--featured-text);
-  /* text-shadow: 0 0 2.7px rgb(0 0 0 / 21%),
+  text-shadow: 0 0 2.7px rgb(0 0 0 / 21%),
                0 0 6.3px rgb(0 0 0 / 30%),
                0 0 11.3px rgb(0 0 0 / 37%),
                0 0 18.8px rgb(0 0 0 / 43%),
                0 0 31px rgb(0 0 0 / 50%),
                0 0 54.1px rgb(0 0 0 / 59%),
-               0 0 117px rgb(0 0 0 / 80%); */
-  text-shadow: 0 0 2.7px rgb(9 35 113 / 21%),
-               0 0 6.3px rgb(9 35 113 / 30%),
-               0 0 11.3px rgb(9 35 113 / 37%),
-               0 0 18.8px rgb(9 35 113 / 43%),
-               0 0 31px rgb(9 35 113 / 50%),
-               0 0 54.1px rgb(9 35 113 / 59%),
-               0 0 117px rgb(9 35 113 / 80%);
+               0 0 117px rgb(0 0 0 / 80%);
 }
 
 p a {
@@ -1270,6 +1264,7 @@ footer.linear a:hover {
 .bg-ice-cream { background: linear-gradient(13deg, rgba(255,197,217,1) 25%, rgba(194,242,208,1) 70%, rgba(253,245,201,1) 100%); }
 
 .ice-cream, .ice-cream p { font-family: Georgia; }
+.ice-cream-play, .ice-cream-play p { font-family: 'Playfair Display', serif; }
 .mobile-menu.ice-cream {
   background-color: #fdf5c9;
   font-family: 'Playfair Display', serif;
@@ -1444,6 +1439,12 @@ div .border.dark-choco-small a {padding-top: 22%; }
   height: 250px;
   transform: rotateY(180deg);
 }
+
+
+
+/* ------------------------------------------ WELCOME SITE ------------------------------------------ */
+.welcome.ice-cream-play { letter-spacing: 1px; }
+.welcome img { width: 500px; }
 
 
 /* Post Loop Item  */
@@ -1973,7 +1974,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .custom-shape-divider-top-1649447239 svg { height: 90px; }
   .ls-padded-05 { padding: 0.5%; }
 
-  .fun-nav a, .fun-nav p { font-size: 1.1rem; }
+  .fun-nav a, .fun-nav p, .pro-nav a, .pro-nav p { font-size: 1.1rem; }
   .ice-cream .dark-choco.border p { padding: 0.5%; }
   .main-menu a { padding-top: 7%; min-height: 23vh; }
   div .border.blue-content a { padding-top: 3%; }
