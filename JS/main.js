@@ -2,6 +2,11 @@
 // particlesJS.load('particles-js', 'assets/particles.js', function() {
 //   console.log('callback - particles.js config loaded');
 // });
+$(function() {
+  $('#pvw1 a').miniPreview({ prefetch: 'pageload' });
+  $('#pvw2 a').miniPreview({ prefetch: 'parenthover' });
+  $('#pvw3 a').miniPreview({ prefetch: 'none' });
+});
 
 $('.hamburger-button').click(function(){
   $('.mobile-menu').fadeToggle(100);
@@ -72,12 +77,39 @@ $(document).ready(function(){
     ]
   });
 
-  // Hide Content
-  $('.caption-content').each(function() {
-    $(this).hide();
+  // Hide Content | Pricing Menu
+  // $('.pricing-detail-1').each(function(){
+  //   $(this).hide();
+  // });
+
+  // Show Content with Click | Pricing Menu
+  $('.pricing-1').click(function(){
+    $('.pricing-detail-1').fadeToggle(100);
+    $(this).toggleClass('active');
   });
-  
-  // Show & Hide Content with Hover
+  $('.pricing-2').click(function(){
+    $('.pricing-detail-2').fadeToggle(100);
+    $(this).toggleClass('active');
+  });
+  $('.pricing-3').click(function(){
+    $('.pricing-detail-3').fadeToggle(100);
+    $(this).toggleClass('active');
+  });
+
+  $('.close-1').click(function(){
+    $(this).toggleClass('active');
+    $('.pricing-detail-1').hide();
+  });
+  $('.close-2').click(function(){
+    $(this).toggleClass('active');
+    $('.pricing-detail-2').hide();
+  });
+  $('.close-3').click(function(){
+    $(this).toggleClass('active');
+    $('.pricing-detail-3').hide();
+  });
+ 
+  // Show & Hide Content with Hover | Projects
   $('.project-item').mouseenter(function(){
     $('.caption-content').show("slow");
   });
