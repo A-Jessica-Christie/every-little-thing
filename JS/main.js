@@ -9,7 +9,7 @@ $(function() {
 });
 
 $('.hamburger-button').click(function(){
-  $('.mobile-menu').fadeToggle(100);
+  $('.mobile-menu').slideToggle(500);
   $(this).toggleClass('active');
 });
 
@@ -96,16 +96,10 @@ $(document).ready(function(){
     $(this).toggleClass('active');
   });
 
-  $('.close-1').click(function(){
+  $('.close').click(function(){
     $(this).toggleClass('active');
     $('.pricing-detail-1').hide();
-  });
-  $('.close-2').click(function(){
-    $(this).toggleClass('active');
     $('.pricing-detail-2').hide();
-  });
-  $('.close-3').click(function(){
-    $(this).toggleClass('active');
     $('.pricing-detail-3').hide();
   });
  

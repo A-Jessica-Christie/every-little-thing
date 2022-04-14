@@ -445,7 +445,7 @@ polygon { stroke-width: 2px; }
 /* Styles when the hamburger button is active  */
 .hamburger-button.active .fa-bars { display: none; }
 .hamburger-button.active .fa-burger { display: none; }
-.hamburger-button.active .fa-xmark { display: block; }
+.hamburger-button.active .fa-xmark { display: block; z-index: 99; }
 .mobile-menu.website { background-color: black; top: 63px; }
 .mobile-menu.website a { color: #087ec2; }
 .mobile-menu.website a:hover { background-color: #092371; border: #092371; }
@@ -956,12 +956,12 @@ div .border {
 .black-content { background-color: black; color: white; }
 .dark-content { background-color:#092371; color: white; }
 .blue-content { background-color: #087ec2; color: white; }
-.blue-content-small { background-color: #087ec2; color: black; }
+.blue-content-small { background-color: #087ec2; color: white; }
 .light-content { background-color: white; color: black; }
 
 
 /* Show/Hide Content */
-.close-1, .close-2, .close-3 {
+.close {
   font-size: 3rem; 
   cursor: pointer;
   position: fixed;
@@ -1357,7 +1357,6 @@ footer.linear a:hover {
 .wave.ice-cream img { padding: 35%; padding-top: 10%; }
 .ice-cream .caption-content h3 { font-family: 'Playfair Display', serif; }
 
-div .border.dark-choco a {padding-top: 22%; }
 .ice-cream .border { border: 2px solid #6b3e26; }
 .ice-cream a { border-bottom: 2px solid #6b3e26; }
 .ice-cream .dark-choco.border { border: 2px solid #fdf5c9; }
@@ -1730,10 +1729,10 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .lp-padded-b-lg { padding-bottom: 10%; }
   .bg-rainbow { background-position: center; }
   .xmark { top: 8%; right: 20%;}
-  ul { padding-left: 30%; }
+  ul.att-list { padding-left: 30%; }
   .ice-cream-3 { width: 135px; top: -130px; right: -45px; }
   .welcome img { padding-top: 15%; }
-  .close-1, .close-2, .close-3 { padding: 0; }
+  .close { padding: 0; }
   .pricing-detail-1, .pricing-detail-2, .pricing-detail-3 { padding-top: 20%; }
 
 }
@@ -1748,7 +1747,6 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .custom-shape-divider-top-1648806667 svg { height: 100px; }
   .lp-padded-lr-1 { padding-left: 1rem; padding-right: 1rem; }
   .lp-padded-b-0 { padding-bottom: 0; }
-  ul { padding-left: 30%; }
 
   .main-menu.ice-cream, .main-menu { min-height: 45vh; }
   .filling { padding-left: 15%; padding-right: 15%; }
@@ -1832,7 +1830,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .dark-choco h2 { font-size: 2rem; }
   .dark-choco nav { text-align: center; padding: 5%; }
   #particles-js { top: 0; }
-  ul { padding-left: 20%; }
+  ul.att-list { padding-left: 20%; }
   .ice-cream-3 { width: 115px; right: -30px; }
   .rose { padding: 0.1rem; }
   .welcome h1 { padding-top: 20%; padding-bottom: 10%; font-size: 3.9rem; }
@@ -1840,7 +1838,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .welcome nav { padding-top: 15%; padding-bottom: 20%; font-size: 1.5rem; }
   .welcome img { padding-top: 25%; }
   .pricing-detail-1, .pricing-detail-2, .pricing-detail-3 { padding-top: 30%; padding-left: 15%; }
-  .close-1, .close-2, .close-3 { right: 135px; }
+  .close { right: 135px; }
 
 }
 
@@ -1913,7 +1911,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .ice-cream .custom-shape-divider-top-1649447239 svg { height: 70px; }
   .custom-shape-divider-bottom-1649097807 svg { height: 100px; }
   .custom-shape-divider-top-1649097652 svg { height: 100PX; }
-  ul { padding-left: 10%; }
+  ul.att-list { padding-left: 10%; }
   .welcome h1 { font-size: 3.5rem; }
   .welcome h2 { font-size: 1.3rem; }
   .welcome nav { font-size: 1.3rem; }
@@ -2014,7 +2012,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .welcome h1 { font-size: 3rem; }
   .welcome nav a { margin: 10%; }
   .main-banner { padding: 10%; padding-top: 0; }
-  .close-1, .close-2, .close-3 { right: 80px; top: 100px; }
+  .close { right: 80px; top: 100px; }
   .pricing-detail-1, .pricing-detail-2, .pricing-detail-3 { padding-left: 5%; padding-right: 10%; }
 
   .custom-shape-divider-top-1648806667 svg { height: 35px; }
@@ -2034,7 +2032,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .heart { padding-top: 5%; }
   .att-title { top: 150px; }
   .ice-cream-3 { width: 100px; top: -100px; }
-  .close-1, .close-2, .close-3 { right: 65px; top: 50px; }
+  .close { right: 65px; top: 50px; }
 
 }
 
@@ -2049,12 +2047,12 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
 
   .fun-nav a, .fun-nav p, .pro-nav a, .pro-nav p { font-size: 1.1rem; }
   .ice-cream .dark-choco.border p { padding: 0.5%; }
-  .pricing-1 a { padding-top: 7%; }
-  .pricing-2 a, .pricing-3 a { padding-top: 3%; }
+  .pricing-1 a, .pricing-2 a { padding-top: 7%; }
+  .pricing-3 a { padding-top: 3%; padding-bottom: 0; }
   .main-menu a { font-size: 1.5rem; min-height: 23vh; }
   #particles-js { top: -25px; }
   .dark-choco nav { padding: 11.5%; padding-bottom: 0; }
-  .heart, ul { padding-top: 20%; }
+  .heart, ul.att-list { padding-top: 20%; }
   .att-title { top: 110px; }
   .pricing-detail-1, .pricing-detail-2, .pricing-detail-3 { padding-top: 15%; }
 
