@@ -2098,9 +2098,11 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .att-title { top: 150px; }
   .ice-cream-3 { width: 100px; top: -100px; }
   .close { right: 65px; top: 50px; }
+  .welcome h2 { margin-bottom: 1rem; }
   .services-title { font-size: 1.5rem; }
   .services img { max-height: 10vh; }
-  .welcome h2 { margin-bottom: 1rem; }
+  .services .ls-padding h2 { padding-top: 0.5rem; padding-bottom: 1rem; }
+  .services .ls-padding img { padding-top:1rem; padding-bottom: 0; }
 
 }
 
