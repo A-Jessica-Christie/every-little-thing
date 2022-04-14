@@ -40,7 +40,12 @@ $(document).ready(function(){
     $('hr').toggleClass('dark-mode-active');
     $('.dm-style').toggleClass('dark-mode-active');
     $(this).toggleClass('dark-mode-active');  
-    });
+  });
+  
+  $('.answer').click(function(){
+    $(this).toggleClass('active');
+    $('.reveal').show(500);
+  });
 
   $('.slider-for').slick({
     slidesToShow: 1,
