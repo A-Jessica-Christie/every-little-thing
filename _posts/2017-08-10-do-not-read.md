@@ -20,11 +20,26 @@ What do you know about me?
 
 You only know things that I let you see.
 
-You don't know my struggles. You don't know the demons I'm battling every single day. You don't know the pain I'm suffering. You know nothing about me.
+You don't know my struggles.
 
-I may say things to you, sharing a little piece of my mind. But don't you dare label me things based on those little puzzles that I left scattered on the floor - the whole picture is so much bigger than your mind to comprehend.
+You don't know the demons I have to battle every single day.
 
-If you don't have the heart to understand it, you don't have the right to judge it. As simple as that.
+You don't know the pain I'm suffering.
+
+You know nothing about me.
 
 &nbsp;
 
+I may say things to you, sharing a little piece of my mind. But don't you dare label me things based on those little puzzles that I left scattered on the floor - the whole picture is so much bigger than your mind to comprehend.
+
+&nbsp;
+
+If you don't have the heart to understand it, you don't have the right to judge it.
+
+As simple as that.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;

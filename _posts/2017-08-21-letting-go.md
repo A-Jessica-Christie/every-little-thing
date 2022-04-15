@@ -20,10 +20,18 @@ I've been doing it since I was a kid.
 
 But the thing about letting go is that doesn't matter how many times you've done it, it would never get easier.
 
+&nbsp;
+
 Instead, as you grew older, it would only get harder.
 
 Because as you mature, you will learn more about the value of things,
 
 and letting go of them is one of the toughest things to do...
+
+&nbsp;
+
+<div class="center">
+    <img src="/images/letting-go.jpg">
+</div>
 
 &nbsp;

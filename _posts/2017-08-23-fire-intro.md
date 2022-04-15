@@ -3,7 +3,7 @@ layout: stories-layout
 title: FIRE to Your ICE
 description: an intro..?
 author: Jessica Christie
-featured: true
+featured: false
 categories: stories
 featured_image: /images/fire-ice.jpg
 seo:
@@ -43,5 +43,9 @@ I'm here for you. Always. Even when you don't need me.
 Yours forever,
 
 Fire
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;

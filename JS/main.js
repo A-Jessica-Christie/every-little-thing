@@ -44,7 +44,7 @@ $(document).ready(function(){
   
   $('.answer').click(function(){
     $(this).toggleClass('active');
-    $('.reveal').show(500);
+    $('.reveal').slideToggle(1000);
   });
 
   $('.slider-for').slick({

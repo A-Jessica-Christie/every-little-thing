@@ -58,6 +58,7 @@ a { text-decoration: none; }
 .padded-l-lg { padding-left: 10%; }
 .padded-r-lg { padding-right: 10%; }
 .padded-t-7  { padding-top: 7%; }
+.padded-l-xlg { padding-left: 20%; }
 
 .padded-t-xlg { padding-top: 15%; }
 .padded-b-xlg { padding-bottom: 15%; }
@@ -708,6 +709,13 @@ img:hover.mailbox { animation: none; }
   margin: 0;
 }
 
+textarea.blog-content {
+  background-color: transparent;
+  color: white;
+  width: 30%;
+  border: none;
+}
+
 
 /* Background Images */
 .bg-stories {
@@ -748,6 +756,7 @@ img:hover.mailbox { animation: none; }
   background-size: cover;
   max-width: 100%;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .bg-immortal {
@@ -1786,11 +1795,17 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .lp-padded-lr-1 { padding-left: 1rem; padding-right: 1rem; }
   .lp-padded-b-0 { padding-bottom: 0; }
 
-  .bg-rainbow { background-attachment: scroll; }
   .xmark { top: 25%;}
   .linear h3 { text-align: left; }
   .linear nav { text-align: left; }
   .custom-shape-divider-top-1648806667 svg { height: 100px; }
+
+  .bg-rainbow { background-attachment: scroll; }
+  .bg-thoughts { background-attachment: scroll; }
+  .bg-books { background-attachment: scroll; }
+  .bg-white-rose { background-attachment: scroll; }
+  .bg-writing { background-attachment: scroll; }
+  .bg-trees { background-attachment: scroll; }
 
   .main-menu.ice-cream, .main-menu { min-height: 45vh; }
   .ice-cream-3 { width: 120px; top: -125px; right: -50px; }
@@ -1906,7 +1921,6 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
 
 	.show-sm { display: block; }
 	.hide-sm { display: none;  }
-  .flex-flip-sm { flex-direction: column-reverse; }
   .flex-flip-alternate:nth-child(odd) { flex-direction: column-reverse; align-items: flex-start; }
 
   .sm-text-center { text-align: center; }
@@ -1989,6 +2003,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .show-xs { display: block; }
   .hide-xs { display: none;  }
   .flex-flip-xs { flex-direction: column-reverse; }
+  .flex-flip-alternate-xs:last-child { flex-direction: column-reverse; }
 
   .subtle-heading-xs {
     font-weight: 300;

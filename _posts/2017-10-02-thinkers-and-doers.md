@@ -60,15 +60,27 @@ Don’t be afraid to make mistakes. Don’t be scared if people reject you. If t
 
 &nbsp;
 
-“The problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts.”
-
-- Bertrand Rusell
+&nbsp;
 
 &nbsp;
 
-“Children are happy because they don’t have a file in their minds called ‘All the things that could go wrong’.”
+<div class="right padded-l-xlg">
+    <p> “The problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts.” </p>
+    <p> - <em>Bertrand Rusell</em></p>
+</div>
 
-- Marianne Williamson
+&nbsp;
+
+&nbsp;
+
+<div class="right padded-l-xlg">
+    <p> “Children are happy because they don’t have a file in their minds called <br> ‘All the things that could go wrong’.” </p>
+    <p> - <em>Marianne Williamson</em></p>
+</div>
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
