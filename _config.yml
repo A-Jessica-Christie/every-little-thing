@@ -1,7 +1,7 @@
 collections:
   posts:
     output: true
-    permalink: /posts/:year/:slug
+    permalink: /:collection/:path/:name/:title
   archives: 
     output: true
     
