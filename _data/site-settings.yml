@@ -4,8 +4,9 @@ seo:
   description:
   keywords:
   social_image:
+  url: jessica-christie.com
   author: Jessica Christie
-  favicon_image: /icons/apple-touch-icon.png
+  favicon_image: /icons/favicon.ico
 social:
   instagram_username: '@ShadesOfJess'
   facebook_url: https://www.facebook.com/chiichobits/
