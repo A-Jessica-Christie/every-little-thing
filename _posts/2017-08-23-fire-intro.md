@@ -9,9 +9,11 @@ featured_image: /images/fire-ice.jpg
 seo:
     title: FIRE to Your ICE
     description: an intro..?
-    social_image:
+    social_image: /images/fire-ice.jpg
     url:
-    keywords:
+    twitter_card:
+    twitter_image: /images/fire-ice.jpg
+    keywords: jessica christie, blog, story, fire to your ice, fire, ice, hurt, understand, pain, suffering, share your pain, steal your pain, cry, alone, leave, always, yours forever
     hide-from-google: false
 ---
 Why are you bottling up your feelings? Will you stop it?

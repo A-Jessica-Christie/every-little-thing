@@ -9,9 +9,10 @@ featured_image: /images/letting-go.jpg
 seo:
     title: Letting Go
     description:
-    social_image:
+    social_image: /images/letting-go.jpg
     url:
-    keywords:
+    twitter_image: /images/letting-go.jpg
+    keywords: jessica christie, blog, thoughts, letting go, mature, maturity, value, tough, old, something new
     hide-from-google: false
 ---
 Letting go isn't something new to me.

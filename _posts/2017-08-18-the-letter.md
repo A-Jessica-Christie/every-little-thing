@@ -9,9 +9,11 @@ featured_image: /images/siblings.jpg
 seo:
     title: To my Brother and Sister
     description: ...a letter
-    social_image: 
+    social_image: /images/siblings.jpg
     url:
-    keywords:
+    twitter_card:
+    twitter_image: /images/siblings.jpg
+    keywords: jessica christie, blog, thoughts, letter, brother, sister, regret, apologize, mistake, turn back time, broken, trust, sorry, ego, jokes, sharing, always in my heart, forever, siblings
     hide-from-google: false
 ---
 ##### Dear borther...

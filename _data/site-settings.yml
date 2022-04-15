@@ -3,10 +3,10 @@ seo:
   title: Every Little Thing
   description:
   keywords:
-  social_image:
+  social_image: /icons/favicon.ico
   url: jessica-christie.com
   author: Jessica Christie
-  favicon_image: /icons/favicon.ico
+  favicon_image:
 social:
   instagram_username: '@ShadesOfJess'
   facebook_url: https://www.facebook.com/chiichobits/

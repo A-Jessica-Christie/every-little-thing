@@ -9,9 +9,11 @@ featured_image: /images/knowledge.jpg
 seo:
     title: Knowledge is Power
     description: Let mysteries remain mystery...
-    social_image:
+    social_image: /images/knowledge.jpg
     url:
-    keywords:
+    twitter_card:
+    twitter_image: /images/knowledge.jpg
+    keywords: jessica christie, blog, thoughts, knowledge is power, curiosity kills the cat, let mysteries remain mystery, burden, don't play with fire, black humor, consequences, choice
     hide-from-google: false
 ---
 People say that “Knowledge is Power”.

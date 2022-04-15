@@ -9,9 +9,11 @@ featured_image: /images/ghost.jpg
 seo: 
     title: Ghost Town
     description: There's nothing left...
-    social_image: /images/abandoned.jpg
+    social_image: /images/ghost.jpg
     url:
-    keywords: 
+    twitter_card:
+    twitter_image: /images/ghost.jpg
+    keywords: jessica christie, blog, poems, ghost town, there's nothing left, memories, broken, shattered to pieces, mirror, sad eyes, screaming in pain, cry, i'm sorry, pain
     hide-from-google: false
 ---
 I build myself a ghost town

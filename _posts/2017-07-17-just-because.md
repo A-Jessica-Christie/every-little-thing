@@ -9,9 +9,11 @@ featured_image: /images/just-because.jpg
 seo:
     title: Just Because
     description: 
-    social_image:
+    social_image: /images/just-because.jpg
     url:
-    keywords:
+    twitter_card:
+    twitter_image: /images/just-because.jpg
+    keywords: jessica christie, blog, poems, just because, tear, crying inside, dying inside, struggle
     hide-from-google: false
 ---
 Just because someone doesn't shed a tear,

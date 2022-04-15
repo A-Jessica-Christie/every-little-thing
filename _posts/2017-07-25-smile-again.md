@@ -9,9 +9,11 @@ featured_image: /images/smile.jpg
 seo:
     title: Smile. Again
     description: 
-    social_image:
+    social_image: /images/smile.jpg
     url:
-    keywords:
+    twitter_card:
+    twitter_image: /images/smile.jpg
+    keywords: jessica christie, blog, poems, smile, wake up in the morning, reflection in the mirror, care
     hide-from-google: false
 ---
 ##### Let me tell you this once again...

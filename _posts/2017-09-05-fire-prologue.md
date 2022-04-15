@@ -9,9 +9,11 @@ featured_image: /images/fire-ice.jpg
 seo:
     title: FIRE to Your ICE
     description: the prologue.
-    social_image:
+    social_image: /images/fire-ice.jpg
     url:
-    keywords:
+    twitter_card:
+    twitter_image: /images/fire-ice.jpg
+    keywords: jessica christie, blog, story, fire, ice, fire to your ice, thinking of you, torture, missing you
     hide-from-google: false
 ---
 I caught myself thinking of you.

@@ -9,9 +9,11 @@ featured_image: /images/want.jpg
 seo:
     title: If you want something
     description: You gotta work for it!
-    social_image:
+    social_image: /images/want.jpg
     url:
-    keywords:
+    twitter_card:
+    twitter_image: /images/want.jpg
+    keywords: jessica christie, blog, thoughts, if you want something, make it happen, never depend on others, sit and ponder, do it yourself, try, succeed, tomorrow, happiness, you are the key, never give up, waiting
     hide-from-google: false
 ---
 ##### Make it happen\!

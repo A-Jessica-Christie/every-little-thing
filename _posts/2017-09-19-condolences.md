@@ -9,10 +9,11 @@ featured_image: /images/condolence.jpg
 seo:
   title: Condolences
   description: 
-  social_image:
+  social_image: /images/condolence.jpg
   url:
   twitter_card:
-  keywords:
+  twitter_image: /images/condolence.jpg
+  keywords: jessica christie, blog, poems, condolences, cry, passed away, stay strong, smile, rest in peace, better place, free
   hide-from-google: false
 _comments:
   title: Max 70 characters

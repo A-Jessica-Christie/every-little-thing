@@ -9,9 +9,11 @@ featured_image: /images/drowning.jpg
 seo:
     title: People say...
     description:
-    social_image:
+    social_image: /images/drowning.jpg
     url:
-    keywords:
+    twitter_card: /images/drowning.jpg
+    twitter_image: /images/drowning.jpg
+    keywords: jessica christie, blog, thoughts, people say, overreact, exaggerate, feeling, born this way, acceptance, rejection, drowning, survive, surrender, give up, waves of emotions, bottomless ocean, ignorance is bliss, respect, golden rule
     hide-from-google: false
 ---
 People say we’re too much ― that we’re overreacting and exaggerating things, just because they don’t feel the way we feel.

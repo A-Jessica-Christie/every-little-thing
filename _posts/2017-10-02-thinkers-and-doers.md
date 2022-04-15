@@ -9,9 +9,11 @@ featured_image: /images/thinkers.jpg
 seo:
     title: Thinkers and Doers
     description: Which one do you think is happier?
-    social_image:
+    social_image: /images/thinkers.jpg
     url:
-    keywords:
+    twitter_card: 
+    twitter_image: /images/thinkers.jpg
+    keywords: jessica christie, blog, thoughts, thinkers, doers, yolo, overthink, mistakes, shit happens, reflect, forgive yourself
     hide-from-google: false
 ---
 The problem with thinkers: they have think too much and always overthink because they’re afraid to make mistakes.

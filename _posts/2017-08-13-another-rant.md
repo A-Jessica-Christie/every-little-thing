@@ -9,9 +9,11 @@ featured_image: /images/rant.png
 seo:
     title: Another Rant
     description: Just skip this
-    social_image:
+    social_image: /images/rant.png
     url:
-    keywords:
+    twitter_card:
+    twitter_image: /images/rant.png
+    keywords: jessica christie, blog, thoughts, rant, sad, process, end result, abomination, struggle, sacrifice, society, judgement, standard of perfection, selfish, reason, assumption, explain, heartless mind, believe
     hide-from-google: false
 ---
 ##### So sick of this world...

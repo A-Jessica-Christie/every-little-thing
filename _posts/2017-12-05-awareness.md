@@ -9,9 +9,11 @@ featured_image: /images/awareness.jpg
 seo: 
     title: Awareness
     description: 
-    social_image: 
+    social_image: /images/awareness.jpg
     url:
-    keywords: 
+    twitter_card:
+    twitter_image: /images/awareness.jpg
+    keywords: jessica christie, blog, thoughts, awareness, words, actions, affect, someone
     hide-from-google: false
 ---
 We have no idea how much our actions and our words can affect someone's life...

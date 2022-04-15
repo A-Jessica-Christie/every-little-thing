@@ -9,10 +9,11 @@ featured_image: /images/dandelion.jpg
 seo:
   title: Hopes and Dreams
   description:
-  social_image:
+  social_image: /images/dandelion.jpg
   url:
   twitter_card:
-  keywords:
+  twitter_image: /images/dandelion.jpg
+  keywords: jessica christie, blog, poems, hopes and dreams, hope, dream, poison, sad, sweetest poison, coping
   hide-from-google: false
 _comments:
   title: Max 70 characters

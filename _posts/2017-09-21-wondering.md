@@ -9,10 +9,11 @@ featured_image: /images/unspoken.jpg
 seo:
   title: Wondering
   description: 
-  social_image:
+  social_image: /images/unspoken.jpg
   url:
   twitter_card:
-  keywords:
+  twitter_image: /images/unspoken.jpg
+  keywords: jessica christie, poems, wondering, hurt, truth, hate, faith, unspoken, word
   hide-from-google: false
 _comments:
   title: Max 70 characters

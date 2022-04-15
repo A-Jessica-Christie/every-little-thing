@@ -9,9 +9,11 @@ featured_image: /images/icarus.jpg
 seo:
     title: Broken Wings
     description: Take these broken wings and learn how to fly
-    social_image:
+    social_image: /images/icarus.jpg
     url:
-    keywords:
+    twitter_card:
+    twitter_image: /images/icarus.jpg
+    keywords: jessica christie, blog, thoughts, broken wings, fly, god, humans, adam and eve, free, divine, shatter, broken, fix, always, promise
     hide-from-google: false
 ---
 ##### If angels have wings, don’t you think God has wings too?

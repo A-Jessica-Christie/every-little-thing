@@ -9,10 +9,11 @@ featured_image: /images/no-thanks.jpg
 seo:
   title: Thank You
   description: Not.
-  social_image:
+  social_image: /images/no-thanks.jpg
   url:
   twitter_card:
-  keywords:
+  twitter_image: /images/no-thanks.jpg
+  keywords: jessica christie, blog, poems, thank you not, cry, pain, hate, hypocrite, zombie, envy, heartless, destroy, hell, bitter, scared, death, escape
   hide-from-google: false
 _comments:
   title: Max 70 characters
@@ -62,7 +63,7 @@ You make me crave my me time all the time
 
 You make me lose my faith in people
 
-You make me looe my willingness to go on
+You make me lose my willingness to go on
 
 You make me become the person I despised the most
 

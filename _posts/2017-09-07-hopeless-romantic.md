@@ -9,10 +9,11 @@ featured_image: /images/hopeless.jpg
 seo:
   title: Hopeless Romantic
   description: Is she?
-  social_image:
+  social_image: /images/hopeless.jpg
   url:
   twitter_card:
-  keywords:
+  twitter_image: /images/hopeless.jpg
+  keywords: jessica christie, blog, poems, hopeless romantic, shakespeare, dracula, true love, overthink, realistic, weakness, scared, despise, stupid, logic, intuition, i love you, hurt, romance is overrated
   hide-from-google: false
 _comments:
   title: Max 70 characters

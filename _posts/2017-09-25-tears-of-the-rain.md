@@ -9,10 +9,11 @@ featured_image: /images/tears.jpg
 seo:
   title: Tears of the Rain
   description: 
-  social_image:
+  social_image: /images/tears.jpg
   url:
   twitter_card:
-  keywords:
+  twitter_image: /images/tears.jpg
+  keywords: jessica christie, blog, poems, tears, rain, love-hate, alone
   hide-from-google: false
 _comments:
   title: Max 70 characters

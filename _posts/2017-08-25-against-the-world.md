@@ -9,9 +9,11 @@ featured_image: /images/world.jpg
 seo:
     title: Against the World
     description:
-    social_image:
+    social_image: /images/world.jpg
     url:
-    keywords:
+    twitter_card:
+    twitter_image: /images/world.jpg
+    keywords: jessica christie, blog, poems, against the world, us against the world, lies, pain, betrayal, bitterness, misery, loneliness, defeat, found
     hide-from-google: false
 ---
 When you’ve seen too many lies
