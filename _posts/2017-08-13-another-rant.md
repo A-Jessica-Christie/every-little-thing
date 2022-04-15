@@ -4,7 +4,7 @@ title: Another Rant
 description: Just skip this
 author: Jessica Christie
 featured: false
-categories: 2cents
+categories: [2cents]
 featured_image: /images/rant.png
 seo:
     title: Another Rant
@@ -20,11 +20,11 @@ So sad that most people don't care about the process.
 
 They only care about the end result.
 
-And if the end result isn't as they hope it would be, they'd think that it's bad, that's it's not worth it - an abomination.
+And if the end result isn't as they hope it would be, they'd think that it's bad, that's it's not worth it ― an abomination.
 
 &nbsp;
 
-[I'm not saying that the end result doesn't matter - it does!
+[I'm not saying that the end result doesn't matter ― it does!
 
 But the process to reach the result matters too.]
 
@@ -68,7 +68,7 @@ But do you know the reason?
 
 Do you really know why? Or is it just your assumption? Just another one of your judgements?
 
-You don't know me. You don't even know the way my brain works - that my heart has to fight with it every single day, just not to lose myself.
+You don't know me. You don't even know the way my brain works ― that my heart has to fight with it every single day, just not to lose myself.
 
 &nbsp;
 

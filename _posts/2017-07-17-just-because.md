@@ -4,7 +4,7 @@ title: Just Because
 description: 
 author: Jessica Christie
 featured: false
-categories: poems
+categories: [poems]
 featured_image: /images/just-because.jpg
 seo:
     title: Just Because

@@ -4,7 +4,7 @@ title: Letting Go
 description: 
 author: Jessica Christie
 featured: false
-categories: 2cents
+categories: [2cents]
 featured_image: /images/letting-go.jpg
 seo:
     title: Letting Go

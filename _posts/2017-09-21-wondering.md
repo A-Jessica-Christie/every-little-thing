@@ -4,7 +4,7 @@ title: Wondering
 description: 
 author: Jessica Christie
 featured: false
-categories: poems
+categories: [poems]
 featured_image: /images/unspoken.jpg
 seo:
   title: Wondering

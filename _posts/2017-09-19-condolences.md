@@ -4,7 +4,7 @@ title: Condolences
 description: 
 author: Jessica Christie
 featured: false
-categories: poems
+categories: [poems]
 featured_image: /images/condolence.jpg
 seo:
   title: Condolences

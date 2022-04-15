@@ -4,7 +4,7 @@ title: Awareness
 description: 
 author: Jessica Christie
 featured: false
-categories: 2cents
+categories: [2cents]
 featured_image: /images/awareness.jpg
 seo: 
     title: Awareness
@@ -46,7 +46,7 @@ We can only control our feelings and reactions toward it. And yeah I know it's h
 
 &nbsp;
 
-When you remember this - and always remember this - you'll become more aware of the pain and struggles of others.
+When you remember this ― and always remember this ― you'll become more aware of the pain and struggles of others.
 
 If you want someone to always be there for you, if you want someone to have your back, if you want someone to accept you for who you are, you gotta be that "someone" first.
 

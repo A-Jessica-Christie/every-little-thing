@@ -4,7 +4,7 @@ title: Hopes and Dreams
 description:
 author: Jessica Christie
 featured: false
-categories: poems
+categories: [poems]
 featured_image: /images/dandelion.jpg
 seo:
   title: Hopes and Dreams
@@ -20,7 +20,7 @@ _comments:
 ---
 Hope
 
-is a poison - the sweetest poison
+is a poison ― the sweetest poison
 
 &nbsp;
 

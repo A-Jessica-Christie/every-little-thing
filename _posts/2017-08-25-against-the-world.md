@@ -4,7 +4,7 @@ title: Against the World
 description:
 author: Jessica Christie
 featured: true
-categories: poems
+categories: [poems]
 featured_image: /images/world.jpg
 seo:
     title: Against the World

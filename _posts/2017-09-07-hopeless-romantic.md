@@ -4,7 +4,7 @@ title: Hopeless Romantic
 description: Is she?
 author: Jessica Christie
 featured: false
-categories: poems
+categories: [poems]
 featured_image: /images/hopeless.jpg
 seo:
   title: Hopeless Romantic

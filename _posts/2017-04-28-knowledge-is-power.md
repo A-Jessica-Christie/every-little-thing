@@ -4,7 +4,7 @@ title: Knowledge is Power
 description: Let mysteries remain mystery...
 author: Jessica Christie
 featured: false
-categories: 2cents
+categories: [2cents]
 featured_image: /images/knowledge.jpg
 seo:
     title: Knowledge is Power
@@ -16,7 +16,7 @@ seo:
 ---
 People say that “Knowledge is Power”.
 
-Well, I won’t argue with that, but there are some things that are better left unspoken, some things that are forbidden even to think about - some things that you weren’t supposed to know.. and knowing those things will only give you a burden - a burden so huge that you can’t carry it yourself.
+Well, I won’t argue with that, but there are some things that are better left unspoken, some things that are forbidden even to think about ― some things that you weren’t supposed to know.. and knowing those things will only give you a burden ― a burden so huge that you can’t carry it yourself.
 
 &nbsp;
 
@@ -32,7 +32,7 @@ Don’t play with fire, it can definitely hurt you\!
 
 Curiosity is good, but there are limits.
 
-“Curiosity kills the cat\!” is a black humour that you need to keep in your mind, for actually there is no joke about death - it could kill you\!
+“Curiosity kills the cat\!” is a black humour that you need to keep in your mind, for actually there is no joke about death ― it could kill you\!
 
 Before you wanna know about something, before you wanna learn about any thing, keep in mind about the consequences.
 

@@ -4,7 +4,7 @@ title: Broken Wings
 description: Take these broken wings and learn how to fly
 author: Jessica Christie
 featured: false
-categories: 2cents
+categories: [2cents]
 featured_image: /images/icarus.jpg
 seo:
     title: Broken Wings
@@ -18,11 +18,11 @@ seo:
 
 Humans are created in the image of God.
 
-So if God has wings, we also have wings - or we used to.
+So if God has wings, we also have wings ― or we used to.
 
 Perhaps when God banished Adam and Eve from Eden, he also cut down their wings.
 
-That’s why the urge to soar high up to the sky, to be free, is always in our blood - because we used to be able to fly.
+That’s why the urge to soar high up to the sky, to be free, is always in our blood ― because we used to be able to fly.
 
 And now when we don’t have our own wings, we spend our lives trying to build our own.
 

@@ -4,7 +4,7 @@ title: Thinkers and Doers
 description: Which one do you think is happier?
 author: Jessica Christie
 featured: false
-categories: 2cents
+categories: [2cents]
 featured_image: /images/thinkers.jpg
 seo:
     title: Thinkers and Doers
@@ -66,7 +66,7 @@ Don’t be afraid to make mistakes. Don’t be scared if people reject you. If t
 
 <div class="right padded-l-xlg">
     <p> “The problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts.” </p>
-    <p> - <em>Bertrand Rusell</em></p>
+    <p> ― <em>Bertrand Rusell</em></p>
 </div>
 
 &nbsp;
@@ -75,7 +75,7 @@ Don’t be afraid to make mistakes. Don’t be scared if people reject you. If t
 
 <div class="right padded-l-xlg">
     <p> “Children are happy because they don’t have a file in their minds called <br> ‘All the things that could go wrong’.” </p>
-    <p> - <em>Marianne Williamson</em></p>
+    <p> ― <em>Marianne Williamson</em></p>
 </div>
 
 &nbsp;

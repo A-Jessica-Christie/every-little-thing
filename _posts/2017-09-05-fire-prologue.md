@@ -4,7 +4,7 @@ title: FIRE to Your ICE
 description: the prologue.
 author: Jessica Christie
 featured: false
-categories: stories
+categories: [stories]
 featured_image: /images/fire-ice.jpg
 seo:
     title: FIRE to Your ICE

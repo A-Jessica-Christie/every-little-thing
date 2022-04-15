@@ -712,7 +712,7 @@ img:hover.mailbox { animation: none; }
 textarea.blog-content {
   background-color: transparent;
   color: white;
-  width: 30%;
+  width: 45%;
   border: none;
 }
 
@@ -1816,6 +1816,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .services-title { font-size: 2.3rem; padding-bottom: 1rem; }
   .services img { max-height: 15vh; }
   .services .dark-choco h2, .services .dark-content h2 { font-size: 1.7rem; }
+  textarea.blog-content { width: 58%; }
 
 }
 
@@ -1911,6 +1912,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .close { right: 135px; }
   .services .dark-choco h2, .services .dark-content h2 { font-size: 1.5rem; }
   .services-title { font-size: 2rem; }
+  textarea.blog-content { width: 75%; }
 
 }
 
@@ -2118,6 +2120,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .services img { max-height: 10vh; }
   .services .ls-padding h2 { padding-top: 0.5rem; padding-bottom: 1rem; }
   .services .ls-padding img { padding-top:1rem; padding-bottom: 0; }
+  textarea.blog-content { width: 85%; }
 
 }
 

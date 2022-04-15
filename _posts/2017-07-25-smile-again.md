@@ -4,7 +4,7 @@ title: Smile. Again
 description: 
 author: Jessica Christie
 featured: false
-categories: poems
+categories: [poems]
 featured_image: /images/smile.jpg
 seo:
     title: Smile. Again

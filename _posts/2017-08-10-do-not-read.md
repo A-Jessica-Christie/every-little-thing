@@ -4,7 +4,7 @@ title: Do Not Read
 description: It's not for you
 author: Jessica Christie
 featured: false
-categories: 2cents
+categories: [2cents]
 featured_image: /images/stop.jpg
 seo:
     title: Do Not Read
@@ -30,7 +30,7 @@ You know nothing about me.
 
 &nbsp;
 
-I may say things to you, sharing a little piece of my mind. But don't you dare label me things based on those little puzzles that I left scattered on the floor - the whole picture is so much bigger than your mind to comprehend.
+I may say things to you, sharing a little piece of my mind. But don't you dare label me things based on those little puzzles that I left scattered on the floor ― the whole picture is so much bigger than your mind to comprehend.
 
 &nbsp;
 

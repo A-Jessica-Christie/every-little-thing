@@ -4,7 +4,7 @@ title: FIRE to Your ICE
 description: an intro..?
 author: Jessica Christie
 featured: false
-categories: stories
+categories: [stories]
 featured_image: /images/fire-ice.jpg
 seo:
     title: FIRE to Your ICE
@@ -26,7 +26,7 @@ But I'm here, and I understand.
 
 I can feel your pain, all your sufferings that you never let anyone see, all the cuts that you covered up so perfectly.
 
-Share your pain with me - I'll bear it with you. I'd steal your pain away if I could.
+Share your pain with me ― I'll bear it with you. I'd steal your pain away if I could.
 
 I won't ever let you cry alone.
 

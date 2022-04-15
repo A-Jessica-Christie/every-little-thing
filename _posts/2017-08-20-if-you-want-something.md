@@ -4,7 +4,7 @@ title: If you want something
 description: You gotta work for it!
 author: Jessica Christie
 featured: false
-categories: 2cents
+categories: [2cents]
 featured_image: /images/want.jpg
 seo:
     title: If you want something
