@@ -10,7 +10,7 @@ seo:
   title: Hopeless Romantic
   description: Is she?
   social_image:
-  url: https://pretty-rose.cloudvent.net/posts/2018/untitled
+  url:
   twitter_card:
   keywords:
   hide-from-google: false

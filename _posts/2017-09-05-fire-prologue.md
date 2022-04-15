@@ -10,7 +10,7 @@ seo:
     title: FIRE to Your ICE
     description: the prologue.
     social_image:
-    url: https://pretty-rose.cloudvent.net/posts/2017/misery
+    url:
     keywords:
     hide-from-google: false
 ---

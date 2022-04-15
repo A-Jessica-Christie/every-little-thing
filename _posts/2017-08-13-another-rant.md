@@ -10,7 +10,7 @@ seo:
     title: Another Rant
     description: Just skip this
     social_image:
-    url: https://pretty-rose.cloudvent.net/posts/2017/the-past
+    url:
     keywords:
     hide-from-google: false
 ---

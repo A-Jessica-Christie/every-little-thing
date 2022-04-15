@@ -10,7 +10,7 @@ seo:
   title: Hopes and Dreams
   description:
   social_image:
-  url: https://pretty-rose.cloudvent.net/posts/2017/hopes-and-dreams
+  url:
   twitter_card:
   keywords:
   hide-from-google: false

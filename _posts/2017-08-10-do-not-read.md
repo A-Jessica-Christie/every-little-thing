@@ -10,7 +10,7 @@ seo:
     title: Do Not Read
     description: It's not for you
     social_image:
-    url: https://pretty-rose.cloudvent.net/posts/2017/the-past
+    url:
     keywords:
     hide-from-google: false
 ---

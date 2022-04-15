@@ -10,7 +10,7 @@ seo:
     title: Broken Wings
     description: Take these broken wings and learn how to fly
     social_image:
-    url: https://pretty-rose.cloudvent.net/posts/2017/broken-wings
+    url:
     keywords:
     hide-from-google: false
 ---

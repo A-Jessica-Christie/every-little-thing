@@ -10,7 +10,7 @@ seo:
     title: Just Because
     description: 
     social_image:
-    url: https://pretty-rose.cloudvent.net/posts/2017/suicide
+    url:
     keywords:
     hide-from-google: false
 ---

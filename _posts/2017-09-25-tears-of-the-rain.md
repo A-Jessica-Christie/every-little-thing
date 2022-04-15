@@ -10,7 +10,7 @@ seo:
   title: Tears of the Rain
   description: 
   social_image:
-  url: https://pretty-rose.cloudvent.net/posts/2018/untitled
+  url:
   twitter_card:
   keywords:
   hide-from-google: false

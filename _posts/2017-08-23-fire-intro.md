@@ -10,7 +10,7 @@ seo:
     title: FIRE to Your ICE
     description: an intro..?
     social_image:
-    url: https://pretty-rose.cloudvent.net/posts/2017/monster
+    url:
     keywords:
     hide-from-google: false
 ---

@@ -10,7 +10,7 @@ seo:
     title: Thinkers and Doers
     description: Which one do you think is happier?
     social_image:
-    url: https://pretty-rose.cloudvent.net/posts/2017/thinkers-and-doers
+    url:
     keywords:
     hide-from-google: false
 ---

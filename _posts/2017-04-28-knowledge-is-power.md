@@ -10,7 +10,7 @@ seo:
     title: Knowledge is Power
     description: Let mysteries remain mystery...
     social_image:
-    url: https://pretty-rose.cloudvent.net/posts/2017/knowledge-is-power
+    url:
     keywords:
     hide-from-google: false
 ---
