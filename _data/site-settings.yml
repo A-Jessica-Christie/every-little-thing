@@ -5,7 +5,7 @@ seo:
   keywords:
   social_image:
   author: Jessica Christie
-  favicon_image: 
+  favicon_image: /icons/apple-touch-icon.png
 social:
   instagram_username: '@ShadesOfJess'
   facebook_url: https://www.facebook.com/chiichobits/
@@ -16,7 +16,7 @@ design:
   light-text_color: '#ffffff'
   featured-text_color: '#e7c7ef'
   dark_color: '#555555'
-  medium_color: '#FFB8D1'
+  medium_color: '#ffb8d1'
   light_color: '#ffd5ef'
   v-light_color: '#ddfdfe'
   featured_color: '#e7c7ef'
