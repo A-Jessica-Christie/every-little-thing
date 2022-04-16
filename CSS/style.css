@@ -1773,6 +1773,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .lp-padded-t-7 { padding-top: 7%; }
   .lp-padded-t-lg { padding-top: 10%; }
   .lp-padded-b-lg { padding-bottom: 10%; }
+  .custom-shape-divider-top-1649447239 svg { height: 205px; }
 
   .bg-rainbow { background-position: center; }
   .xmark { top: 8%; right: 20%;}
@@ -1785,7 +1786,8 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .ice-cream-3 { width: 135px; top: -130px; right: -45px; }
   .welcome img { padding-top: 15%; }
   .close { padding: 0; }
-  .pricing-detail-1, .pricing-detail-2, .pricing-detail-3 { padding-top: 20%; }
+  .pricing-detail-1, .pricing-detail-2, .pricing-detail-3 { padding-top: 10%; }
+  .bg-trees #particles-js { top: 270px; }
 
 }
 
@@ -1813,7 +1815,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .welcome h1 { font-size: 5rem; padding-top: 10%; padding-bottom: 10%; }
   .welcome h2 { font-size: 2rem; }
   .welcome nav { font-size: 1.8rem; }
-  .pricing-detail-1, .pricing-detail-2, .pricing-detail-3 { padding-top: 25%; }
+  .pricing-detail-1, .pricing-detail-2, .pricing-detail-3 { padding-top: 15%; }
   .services-title { font-size: 2.3rem; padding-bottom: 1rem; }
   .services img { max-height: 15vh; }
   .services .dark-choco h2, .services .dark-content h2 { font-size: 1.7rem; }
@@ -1995,6 +1997,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .services-title { font-size: 1.7rem; }
   .black-content .services-title { padding-top: 5%; }
   .frame-right, .frame-left, .pro-frame-right, .pro-frame-left { border: none; }
+  .close { top: 100px; }
 
 }
 
@@ -2092,7 +2095,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .welcome h1 { font-size: 3rem; }
   .welcome nav a { margin: 10%; }
   .main-banner { padding: 10%; padding-top: 0; }
-  .close { right: 80px; top: 100px; }
+  .close { right: 80px; }
   .pricing-detail-1, .pricing-detail-2, .pricing-detail-3 { padding-left: 5%; padding-right: 10%; }
 
   .custom-shape-divider-top-1648806667 svg { height: 35px; }
