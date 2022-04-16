@@ -4,6 +4,10 @@ collections:
     permalink: /:collection/:title
   archives: 
     output: true
+
+relative_link:
+  enabled: true
+  collections: true
     
     
 _options:
