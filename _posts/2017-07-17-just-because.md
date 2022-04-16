@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, poems, just because, tear, crying inside, dying inside, struggle
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 Just because someone doesn't shed a tear,
 
 doesn't mean he/she isn't crying inside..

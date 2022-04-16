@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, story, fire, ice, fire to your ice, thinking of you, torture, missing you
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 I caught myself thinking of you.
 
 Begged for my heart to stop torturing me, and told my brain to talk sense into it.

@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, poems, against the world, us against the world, lies, pain, betrayal, bitterness, misery, loneliness, defeat, found
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 When you’ve seen too many lies
 
 When you’ve endured too much pain

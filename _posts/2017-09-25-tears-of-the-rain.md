@@ -19,6 +19,9 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
+{% include preloader.html %}
+
 Your touch feels warm on my cheek.
 
 So warm that I embrace you and welcome you.

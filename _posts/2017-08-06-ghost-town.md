@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, poems, ghost town, there's nothing left, memories, broken, shattered to pieces, mirror, sad eyes, screaming in pain, cry, i'm sorry, pain
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 I build myself a ghost town
 
 With nothing left but memories

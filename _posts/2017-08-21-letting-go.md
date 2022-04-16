@@ -15,6 +15,9 @@ seo:
     keywords: jessica christie, blog, thoughts, letting go, mature, maturity, value, tough, old, something new
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 Letting go isn't something new to me.
 
 I've been doing it since I was a kid.

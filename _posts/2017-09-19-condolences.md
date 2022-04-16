@@ -19,6 +19,9 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
+{% include preloader.html %}
+
 Don't cry for the dead..
 
 But smile for them instead..

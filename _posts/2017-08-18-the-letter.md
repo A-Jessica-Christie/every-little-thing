@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, thoughts, letter, brother, sister, regret, apologize, mistake, turn back time, broken, trust, sorry, ego, jokes, sharing, always in my heart, forever, siblings
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 ##### Dear borther...
 
 If I could turn back time, I would go back to the time when you begged me to lend you my stupid laptop and I chose not to, because I chose my friends over you ― friends whom I no longer in contact with, who probably are out of my life for good. I was an idiot ― arguably still am ― and I shouldn't have broken your heart and trust..

@@ -19,6 +19,9 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
+{% include preloader.html %}
+
 You...
 
 You teach me to enjoy the company of myself

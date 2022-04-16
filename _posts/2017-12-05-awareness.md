@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, thoughts, awareness, words, actions, affect, someone
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 We have no idea how much our actions and our words can affect someone's life...
 
 In fact, most people don't even know that they have the power to do so. Some just couldn't care less, and some really don't have a clue about it.

@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, poems, smile, wake up in the morning, reflection in the mirror, care
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 ##### Let me tell you this once again...
 
 When you wake up in the morning and see your reflection in the mirror,

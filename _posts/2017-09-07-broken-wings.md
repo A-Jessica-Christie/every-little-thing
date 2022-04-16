@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, thoughts, broken wings, fly, god, humans, adam and eve, free, divine, shatter, broken, fix, always, promise
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 ##### If angels have wings, don’t you think God has wings too?
 
 Humans are created in the image of God.

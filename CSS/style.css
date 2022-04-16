@@ -15,10 +15,102 @@ a { text-decoration: none; }
 [class*=col] { padding: 0; }
 [class*=grid] { margin: 0; }
 
-/* Animation CSS */
+/* ------- Animation CSS ------- */
+/* Fade Effect */
+@-webkit-keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
 @keyframes fadeIn { 
   from { opacity: 0; } 
 }
+
+/* Preloader Effect */
+@-webkit-keyframes preloader {
+  0% {
+    height: 30px;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    background-color: #fff;
+  }
+  25% {
+    height: 60px;
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    background-color: #087ec2;
+  }
+  50% {
+    height: 30px;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    background-color: #fff;
+  }
+  100% {
+    height: 30px;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    background-color: #fff;
+  }
+}
+
+@keyframes preloader {
+  0% {
+    height: 30px;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    background-color: #fff;
+  }
+  25% {
+    height: 60px;
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    background-color: #087ec2;
+  }
+  50% {
+    height: 30px;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    background-color: #fff;
+  }
+  100% {
+    height: 30px;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    background-color: #fff;
+  }
+}
+
+/* The typing effect */
+@-webkit-keyframes typing {
+  from { width: 0 }
+  to { width: 73% }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 73% }
+}
+
+/* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #6b3e26; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #6b3e26; }
+}
+@-webkit-keyframes cursor-blink {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+@keyframes cursor-blink {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
 
 
 /* ---------- Negative Space Utility Classes  ------------------ */ 
@@ -449,9 +541,23 @@ polygon { stroke-width: 2px; }
 .hamburger-button.active .fa-bars { display: none; }
 .hamburger-button.active .fa-burger { display: none; }
 .hamburger-button.active .fa-xmark { display: block; z-index: 99; }
-.mobile-menu.website { background-color: black; top: 63px; }
-.mobile-menu.website a { color: #087ec2; }
-.mobile-menu.website a:hover { background-color: #092371; border: #092371; }
+.mobile-menu.website { background-color: black; top: 63px; padding: 10%; }
+.mobile-menu.website a {
+  margin: 15%;
+  color: #087ec2;
+  border-radius: 0;
+  border: 3px solid white;
+  background-color: black;
+}
+
+.mobile-menu.website a:hover {
+  border: none;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  background-color: transparent;
+}
+
+
 .hamburger-button.active {
   color: var(--light-text);
   text-shadow: 0 0 2.7px rgb(0 0 0 / 21%),
@@ -562,6 +668,7 @@ input:focus, textarea:focus { border: 1.5px solid #6b3e26; outline: 0; }
   border-radius: 10px;
   padding: 1%;
   animation: fadeIn 1.5s infinite alternate;
+  -webkit-animation: fadeIn 1.5s infinite alternate;
 }
 
 
@@ -575,7 +682,7 @@ input:focus, textarea:focus { border: 1.5px solid #6b3e26; outline: 0; }
 
 .pro .connect { color: white; font-family: 'Martel', serif; }
 .pro .alert-success { color: white; background: transparent; }
-.pro .confirm { background-color: white; color: #092371; animation: fadeIn 0.5s infinite alternate; }
+.pro .confirm { background-color: white; color: #092371; animation: fadeIn 0.5s infinite alternate; -webkit-animation: fadeIn 0.5s infinite alternate; }
 .pro input:focus, textarea:focus { border: 1.5px solid #092371; outline: 0; }
 .pro form button {
   font-family: inherit;
@@ -586,6 +693,7 @@ input:focus, textarea:focus { border: 1.5px solid #6b3e26; outline: 0; }
 .pro .confirm:hover {
   color: white;
   animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s; 
   background: linear-gradient(270deg, rgba(9,35,113,1) 15%, rgba(8,126,194,1) 55%, rgba(255,255,255,1) 100%);
 }
 
@@ -657,8 +765,8 @@ input:focus, textarea:focus { border: 1.5px solid #6b3e26; outline: 0; }
 a img:last-child { display: none ; }
 a:hover img:last-child { display: inline-block; }
 a:hover img:first-child { display: none; }
-img.mailbox { animation: fadeIn 0.5s infinite alternate; width: 200px; height: 100%; }
-img:hover.mailbox { animation: none; }
+img.mailbox { animation: fadeIn 0.5s infinite alternate; -webkit-animation: fadeIn 0.5s infinite alternate; width: 200px; height: 100%; }
+img:hover.mailbox { animation: none; -webkit-animation: none; }
 
 
 
@@ -882,6 +990,78 @@ li { font-size: 0.85rem; line-height: 1.3; }
 
 
 /* ------------------------------------------ WEBSITE PRO ------------------------------------------ */
+/* Preloader */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20000;
+  text-align: center;
+  background-color: #191b1d;
+}
+
+.centrize {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.v-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#mask {
+  position: relative;
+  height: 30px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+#mask span {
+  display: block;
+  bottom: 0px;
+  left: 0;
+  width: 1px;
+  height: 30px;
+  background-color: #fff;
+  position: absolute;
+  -webkit-animation: preloader 1.5s infinite ease-in-out;
+  animation: preloader 1.5s infinite ease-in-out;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
+#mask span:nth-child(2) {
+  left: 11px;
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
+}
+
+#mask span:nth-child(3) {
+  left: 22px;
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+}
+
+#mask span:nth-child(4) {
+  left: 33px;
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+}
+
+#mask span:nth-child(5) {
+  left: 44px;
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s;
+}
+
+#page { display: none; }
+
 /* Particles */
 canvas {  display: block; }
 
@@ -1280,28 +1460,18 @@ img.design { width: 330px; }
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+  -webkit-animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
+
 .typewriter.pro {
   animation:
     typing 3.5s steps(40, end),
     cursor-blink .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 73% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #6b3e26; }
-}
-
-@keyframes cursor-blink {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
+  -webkit-animation:
+    typing 3.5s steps (40, end),
+    cursor-blink .75s step-end infinite;
 }
 
 .custom-shape-divider-bottom-1649417950 {
@@ -1458,6 +1628,7 @@ img.design { width: 330px; }
   width: 139px;
   transform: rotate(15deg);
   animation: fadeIn 0.5s infinite alternate;
+  -webkit-animation: fadeIn 0.5 infinite alternate;
 }
 
 .ice-cream-1 {
@@ -1513,7 +1684,7 @@ img.design { width: 330px; }
 .welcome p { opacity: 0.85; }
 .welcome nav { padding-top: 3%; padding-bottom: 7%; font-size: 2rem; }
 .welcome img { width: 350px; opacity: 0.7; padding-top: 7%; }
-.welcome nav a:hover { opacity: 1; }
+.welcome nav a:hover { opacity: 1; border: none; border-top: 3px solid white; border-bottom: 3px solid white; }
 .welcome nav a {
   padding: 0.25rem 5%;
   background-color: transparent;

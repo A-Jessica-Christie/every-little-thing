@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, thoughts, do not read, it's not for you, struggle, demons, pain, suffering, sharing, a little piece of my mind, label, puzzles, the whole picture, don't judge
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 ##### Tell me...
 
 What do you know about me?

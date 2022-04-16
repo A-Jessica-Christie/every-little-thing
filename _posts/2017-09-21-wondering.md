@@ -19,6 +19,9 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
+{% include preloader.html %}
+
 Wondering what will happen if you know the truth...
 
 Will it hurt you?

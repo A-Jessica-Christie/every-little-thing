@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, thoughts, people say, overreact, exaggerate, feeling, born this way, acceptance, rejection, drowning, survive, surrender, give up, waves of emotions, bottomless ocean, ignorance is bliss, respect, golden rule
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 People say we’re too much ― that we’re overreacting and exaggerating things, just because they don’t feel the way we feel.
 
 They don’t know what we’re feeling. They can’t understand it ― because they’re not built that way.

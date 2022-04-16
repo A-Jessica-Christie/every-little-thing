@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, thoughts, knowledge is power, curiosity kills the cat, let mysteries remain mystery, burden, don't play with fire, black humor, consequences, choice
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 People say that “Knowledge is Power”.
 
 Well, I won’t argue with that, but there are some things that are better left unspoken, some things that are forbidden even to think about ― some things that you weren’t supposed to know.. and knowing those things will only give you a burden ― a burden so huge that you can’t carry it yourself.

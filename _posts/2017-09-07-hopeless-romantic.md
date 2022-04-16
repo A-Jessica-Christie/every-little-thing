@@ -19,6 +19,9 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
+
+{% include preloader.html %}
+
 She is a hopeless romantic who would rather watch a horror flick instead of cheesy sappy romance movies.
 
 She is a hopeless romantic who finds the time to read Dracula but too lazy to read Shakespeare's.

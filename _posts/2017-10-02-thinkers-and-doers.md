@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, thoughts, thinkers, doers, yolo, overthink, mistakes, shit happens, reflect, forgive yourself
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 The problem with thinkers: they have think too much and always overthink because they’re afraid to make mistakes.
 
 The problem with doers: they rarely think and just do things, no matter if they’re doing countless mistakes.

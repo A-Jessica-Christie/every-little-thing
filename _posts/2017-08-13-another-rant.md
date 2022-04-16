@@ -16,6 +16,9 @@ seo:
     keywords: jessica christie, blog, thoughts, rant, sad, process, end result, abomination, struggle, sacrifice, society, judgement, standard of perfection, selfish, reason, assumption, explain, heartless mind, believe
     hide-from-google: false
 ---
+
+{% include preloader.html %}
+
 ##### So sick of this world...
 
 So sad that most people don't care about the process.
