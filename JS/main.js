@@ -56,6 +56,15 @@ $(document).ready(function(){
     $('.mailbox-menu').fadeOut(500);
   });
 
+  $('.quote-slider-container').slick({
+    autoplay: false, // Do we want it to autoplay? true or false
+    arrows: false, // Do you want to show arrows to trigger each slide
+    accessibility: true, // Enables keyboard tabbing and arrow key navigation
+    dots: true, // Enables the dots below to show how many slides
+    fade: true, // Changes the animate from slide to fade if true
+    infinite: true, // When true, means that it will scroll in a circle
+  });
+
   $('.toggle-container').click(function(){
     $('section').toggleClass('dark-mode-active');
     $('.attribute').toggleClass('dark-mode-active');

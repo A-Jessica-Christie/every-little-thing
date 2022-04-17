@@ -1849,6 +1849,15 @@ img.design { width: 330px; }
 .curvy { font-family: 'WindSong', cursive; font-size: 3rem; }
 .candy { font-family: 'Emilys Candy', cursive; font-size: 1.7rem; }
 
+/* Quote Slider */
+.slider-quote { margin-bottom: 1rem; }
+.slider-quote:first-child { display: block; }
+.quote-slider-container {
+  padding: 5%;
+  max-width: 900px;
+  margin: auto;
+}
+
 
 /* Individual Blog Post Pages  */
 .blog-content h1 {
@@ -2107,6 +2116,7 @@ hr.dark-mode-active { border: 1px solid var(--light-text); }
   .welcome img { padding-top: 15%; }
   .close { padding: 0; }
   .pricing-detail-1, .pricing-detail-2, .pricing-detail-3 { padding-top: 10%; }
+  .pro .pricing-3 a { padding-top: 20%; }
   .bg-trees #particles-js { top: 270px; }
 
 }
