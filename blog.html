@@ -26,7 +26,7 @@ seo:
             </svg>
         </div>
         <nav class="padded center">
-            {% for link in site.archives %}
+            {% for link in site.archives reversed %}
                 <a href="{{link.url}}"> {{ link.category }} </a>
             {% endfor %}
         </nav>
