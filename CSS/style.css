@@ -1185,12 +1185,14 @@ div .border {
 }
 
 .main-menu-small { display: none; }
+.main-menu-small p { cursor: pointer; }
 .main-menu-small a {
   border-bottom: 2px solid black;
   font-size: 2rem;
   padding: 5%;
   min-height: 20vh;
   padding-top: 17%;
+  cursor: pointer;
 }
 
 .main-menu-small .pricing-3 a { padding-top: 10%; }
@@ -1231,6 +1233,7 @@ div .border {
 .main-menu h3, .main-menu-small h3 { font-family: 'Playfair Display', serif; }
 .main-menu ul, .main-menu-small ul { padding-left: 10%; }
 .main-menu li, .main-menu-small li { font-family: 'Playfair Display', serif; font-size: 0.91rem; }
+.pricing-detail-1 p:hover, .pricing-detail-2 p:hover, .pricing-detail-3 p:hover { cursor: default; }
 
 .pro .pricing-detail-1,
 .pro .pricing-detail-2,
@@ -1792,7 +1795,6 @@ img.design { width: 330px; }
 .welcome p { opacity: 0.85; }
 .welcome nav { padding-top: 3%; padding-bottom: 7%; font-size: 2rem; }
 .welcome img { width: 350px; opacity: 0.7; padding-top: 7%; }
-.welcome nav a:hover { opacity: 1; border: none; border-top: 3px solid white; border-bottom: 3px solid white; }
 .welcome nav a {
   padding: 0.25rem 5%;
   background-color: transparent;
@@ -1802,6 +1804,14 @@ img.design { width: 330px; }
   border-radius: 3px;
   border: 3px solid white;
   opacity: 0.7;
+}
+
+.welcome nav a:hover {
+  opacity: 1;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
 }
 
 
